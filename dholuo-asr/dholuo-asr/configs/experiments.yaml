@@ -1,0 +1,121 @@
+# Every training run in the report is one named entry below.
+# A run = `base`, then its `extends` parent (if any), then its own overrides.
+# The fully resolved config is saved next to each run's results (config.json).
+#
+# Compute note (Kaggle, single T4/P100, 12 h sessions, ~30 GPU-h/week):
+#   max_steps is FIXED across the data-size and transcript-view runs so that they differ
+#   in exactly one factor. Check the "throughput check" line printed after 50 steps and
+#   lower max_steps for ALL comparable runs together if the projection exceeds the budget.
+
+base:
+  data:
+    splits_file: splits.csv          # produced by notebook 02
+    text_view: normalised            # normalised | minimal   (Experiment B)
+    split_scheme: speaker            # speaker | random (Exp F) | strict (prompt-disjoint)
+    train_fraction: 1.0              # fraction of TRAINING SPEAKERS (Experiment A)
+    max_train_seconds: 15.0          # longer training clips are skipped (memory)
+    cache_dir: /tmp/audio_cache      # decoded 16 kHz audio cache (outside /kaggle/working)
+  model:
+    family: hf                       # hf | bilstm
+    checkpoint: facebook/wav2vec2-xls-r-300m
+    strategy: full                   # full | frozen | lora | adapter   (Experiment G)
+    attention_dropout: 0.05
+    hidden_dropout: 0.05
+    feat_proj_dropout: 0.05
+    layerdrop: 0.05
+    mask_time_prob: 0.05
+    gradient_checkpointing: false
+  train:
+    seed: 42
+    lr: 3.0e-4
+    weight_decay: 0.0
+    warmup_ratio: 0.1
+    max_steps: 6000
+    epochs: 100                      # upper bound; max_steps / early stopping bind first
+    max_batch_seconds: 160           # seconds of audio per forward pass
+    grad_accum: 2                    # effective batch ~320 s of audio
+    eval_batch_seconds: 320
+    eval_steps: 500
+    early_stopping_patience: 4       # evaluations without val-WER improvement
+    max_grad_norm: 1.0
+    fp16: true
+    num_workers: 2
+    max_minutes: 600                 # wall-clock guard (Kaggle session = 12 h)
+  output:
+    save_model: true
+    keep_logprobs: true              # needed for LM-decoding ablation in notebook 06
+
+experiments:
+  # ---------------- Experiment C: model family --------------------------------------
+  xlsr_full: {}                      # PRIMARY MODEL
+
+  bilstm_ctc:
+    model:
+      family: bilstm
+      checkpoint: none
+      strategy: none
+      hidden: 320
+      layers: 3
+      dropout: 0.2
+    train:
+      lr: 1.0e-3
+      weight_decay: 1.0e-4
+      max_steps: 12000
+      max_batch_seconds: 400
+      grad_accum: 1
+      eval_steps: 1000
+      early_stopping_patience: 5
+
+  mms_adapter:                       # also part of Experiment G (parameter-efficient)
+    model:
+      checkpoint: facebook/mms-1b-all
+      strategy: adapter
+      layerdrop: 0.0
+      gradient_checkpointing: true
+    train:
+      lr: 1.0e-3
+      max_batch_seconds: 100
+      grad_accum: 3
+      max_steps: 4000
+
+  # ---------------- Experiment G: fine-tuning strategy on the SAME backbone ----------
+  xlsr_frozen:
+    model: {strategy: frozen}
+    train: {lr: 1.0e-3}
+  xlsr_lora:
+    model: {strategy: lora, lora_r: 16, lora_alpha: 32, lora_dropout: 0.05}
+    train: {lr: 5.0e-4}
+
+  # ---------------- Experiment A: training-data size (speakers) ----------------------
+  xlsr_full_frac10: {data: {train_fraction: 0.10}}
+  xlsr_full_frac25: {data: {train_fraction: 0.25}}
+  xlsr_full_frac50: {data: {train_fraction: 0.50}}
+
+  # ---------------- Experiment B: transcript normalisation ---------------------------
+  xlsr_full_minimal_text: {data: {text_view: minimal}}
+
+  # ---------------- Experiment F: leakage (row-level random split) -------------------
+  xlsr_full_random_split: {data: {split_scheme: random}}
+
+  # ---------------- Speaker- AND prompt-disjoint training (see notebook 02) ----------
+  xlsr_full_prompt_disjoint: {data: {split_scheme: strict}}
+
+  # ---------------- Run-to-run variation of the primary model ------------------------
+  xlsr_full_seed2: {extends: xlsr_full, train: {seed: 1337}}
+  xlsr_full_seed3: {extends: xlsr_full, train: {seed: 2024}}
+
+  # ---------------- Offline smoke tests (tiny random models, CPU, fake data) ---------
+  smoke_hf:
+    model: {checkpoint: tiny-random, layerdrop: 0.0}
+    train: {max_steps: 6, eval_steps: 3, max_batch_seconds: 20, eval_batch_seconds: 40,
+            grad_accum: 1, num_workers: 0, warmup_ratio: 0.3}
+    data: {cache_dir: null}
+  smoke_lora: {extends: smoke_hf, model: {strategy: lora, lora_targets: [q_proj, v_proj]}}
+  smoke_adapter: {extends: smoke_hf, model: {strategy: adapter}}
+  smoke_frozen: {extends: smoke_hf, model: {strategy: frozen}}
+  smoke_bilstm:
+    extends: bilstm_ctc
+    model: {hidden: 32, layers: 1}
+    train: {max_steps: 6, eval_steps: 3, max_batch_seconds: 20, eval_batch_seconds: 40,
+            num_workers: 0}
+    data: {cache_dir: null}

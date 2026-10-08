@@ -1,0 +1,20 @@
+# Core (Kaggle images already include most of these; versions are lower bounds,
+# exact versions used for every run are recorded in results/<run>/env.json)
+numpy>=1.26
+pandas>=2.1
+scipy>=1.11
+matplotlib>=3.8
+pyyaml>=6.0
+soundfile>=0.12
+librosa>=0.10          # fallback decoder for formats libsndfile cannot read
+torch>=2.1
+transformers>=4.38     # Wav2Vec2 adapter (MMS) support
+safetensors>=0.4
+peft>=0.10             # LoRA runs only
+# Decoding ablation (install separately, see README):
+#   pip install --no-deps pyctcdecode pygtrie
+#   pip install https://github.com/kpu/kenlm/archive/master.zip
+# Development
+pytest>=7
+jiwer>=3.0             # tests only: cross-checks our WER/CER implementation
+nbformat>=5
