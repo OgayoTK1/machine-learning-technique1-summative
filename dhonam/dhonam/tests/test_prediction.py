@@ -37,8 +37,8 @@ def test_validation_temperature_is_applied(make_model_dir):
     sharp = TopicClassifier(make_model_dir(temperature=0.25, temperature_fitted_on="validation"))
     pred = sharp.predict(text)
     assert sharp.calibrated and pred.calibrated
-    assert pred.label == base.predict(text).label          # calibration never changes the prediction
-    assert pred.ranking[0][1] > p_raw                       # T < 1 sharpens the distribution
+    assert pred.label == base.predict(text).label        
+    assert pred.ranking[0][1] > p_raw                       
 
 
 def test_preprocessing_is_applied_before_the_model(fixture_model_dir):
