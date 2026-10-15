@@ -108,7 +108,7 @@ dhonam/
 │   ├── final_report.md            technical report (Markdown source)
 │   ├── final_report.pdf           technical report (PDF)
 │   ├── REPORT_TABLES.md           result tables exported by the notebook
-│   └── figures/                   figures extracted from the notebook outputs
+│   └── figures/                   figures from the notebook outputs
 ├── tests/                         pytest suite (preprocessing, prediction, app, calibration)
 ├── requirements.txt
 ├── requirements-dev.txt
