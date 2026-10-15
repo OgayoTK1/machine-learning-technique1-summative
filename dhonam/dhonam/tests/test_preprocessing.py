@@ -9,7 +9,7 @@ from src.preprocessing import TEXT_VARIANTS, canonical_tag, get_normalizer, toke
 
 NOTEBOOK = Path(__file__).resolve().parent.parent / "notebooks" / "dholuo_topic_classification_final.ipynb"
 
-# Inputs and outputs printed by the executed notebook (section 5).
+# Inputs and outputs printed by the notebook
 NOTEBOOK_EXAMPLES = [
     ("Nyithindo ipuonjo yore mag pur ,koro [CS]net[cs] ok?", {
         "minimal": "Nyithindo ipuonjo yore mag pur ,koro [CS]net[cs] ok?",
