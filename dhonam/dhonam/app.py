@@ -1,7 +1,4 @@
 """Streamlit interface for the Dholuo agricultural topic classifier.
-
-Run locally with:  streamlit run app.py
-The model is loaded from models/final/ (or the directory in DHOLUO_MODEL_DIR).
 """
 
 import os
@@ -13,8 +10,6 @@ from src.prediction import InputValidationError, ModelArtifactError, TopicClassi
 
 st.set_page_config(page_title="Dholuo Agricultural Topic Classifier", layout="centered")
 
-# Verified evaluation figures, taken from the executed notebook
-# (notebooks/dholuo_topic_classification_final.ipynb, sections 13 and 14.6).
 TEST_MACRO_F1 = 0.396
 TEST_MACRO_F1_CI = "0.329 to 0.442"
 UNSEEN_PROMPT_MACRO_F1 = 0.361
@@ -137,7 +132,7 @@ def main():
             pred = clf.predict(text)
         except InputValidationError as exc:
             st.warning(str(exc))
-        except Exception as exc:  # unexpected inference failure: report, do not crash the page
+        except Exception as exc:  
             st.error(f"Something went wrong during prediction ({type(exc).__name__}). Please try again.")
         else:
             show_prediction(clf, pred)
