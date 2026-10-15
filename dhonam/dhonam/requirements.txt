@@ -1,0 +1,7 @@
+# Runtime dependencies for the Streamlit app and inference package.
+# scikit-learn must match the version used to train and pickle the model (Kaggle, 1.6.1).
+streamlit==1.66.0
+scikit-learn==1.6.1
+numpy>=2.0,<3
+pandas>=2.2
+joblib>=1.4
