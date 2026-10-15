@@ -1,10 +1,5 @@
 """Shared test fixtures.
 
-The real model is trained on gated data and is not part of the repository, so the tests
-build a small stand-in model with the same structure as the notebook export (a scikit-learn
-Pipeline with steps 'tfidf' and 'clf', plus label_map.json). It is trained on a handful of
-synthetic sentences and exists only to exercise loading, preprocessing and prediction code.
-It says nothing about real model quality.
 """
 
 import json
