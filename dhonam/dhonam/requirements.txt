@@ -1,6 +1,0 @@
-# Runtime dependencies for the Streamlit app and inference package.
-streamlit==1.66.0
-scikit-learn==1.6.1
-numpy>=2.0,<3
-pandas>=2.2
-joblib>=1.4
