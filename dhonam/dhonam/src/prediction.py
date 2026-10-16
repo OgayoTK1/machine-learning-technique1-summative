@@ -9,8 +9,6 @@ contains at least:
 
 The Streamlit app and the tests use this module; it has no Streamlit dependency.
 
-Security note: joblib files are Python pickles. Only load model files you produced
-yourself (for example, downloaded from your own Kaggle notebook output).
 """
 
 from __future__ import annotations
