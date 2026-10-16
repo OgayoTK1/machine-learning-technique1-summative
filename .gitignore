@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets and credentials (never commit)
+.env
+.streamlit/secrets.toml
+kaggle.json
+*.token
+hf_token*
+
+# Model artifacts: models/final/ is committed on purpose so the deployed app can load it.
+*.safetensors
+*.pt
+
+# Data (the dataset is gated and must not be redistributed)
+data/
+*.csv
+!reports/**/*.csv
+
+# Notebook and editor clutter
+.ipynb_checkpoints/
+.DS_Store
+.vscode/
+.idea/
