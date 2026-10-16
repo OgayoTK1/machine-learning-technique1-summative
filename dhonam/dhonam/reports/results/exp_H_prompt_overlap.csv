@@ -1,0 +1,5 @@
+model,train_set,n_train,test_f1,test_sd,test_acc
+bilstm,speaker+prompt-disjoint,709.0,0.2738,0.005,0.3013
+bilstm,speaker-disjoint,810.0,0.3066,0.0218,0.3387
+lr_word,speaker+prompt-disjoint,709.0,0.3111,0.0,0.352
+lr_word,speaker-disjoint,810.0,0.3957,0.0,0.424

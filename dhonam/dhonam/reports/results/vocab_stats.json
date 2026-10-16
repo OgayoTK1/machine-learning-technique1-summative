@@ -1,0 +1,9 @@
+{
+  "train_types": 3608,
+  "train_tokens": 42106,
+  "train_hapax_share": 0.512,
+  "test_token_oov_rate_speaker_split": 0.0523,
+  "test_token_oov_rate_random_split": 0.0475,
+  "image_subset_types": 5254,
+  "image_types_unseen_in_freeform_train": 0.606
+}

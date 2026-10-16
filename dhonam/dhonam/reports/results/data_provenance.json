@@ -1,0 +1,32 @@
+{
+  "A_facts_from_dataset": [
+    "Source: Hugging Face dataset MCAA1-MSU/twb_luo_ke, revision 5cbcd61d844e29e80e5e574fa14a7c54603052c3",
+    "Creators: Utavu Foundation and CLEAR Global; collected on the TWB Voice platform; steward: Maseno Centre for Applied AI (dataset card)",
+    "Licence: Nwulite Obodo Open Data License NOODL-1.0 (dataset card); access gated behind accepting conditions",
+    "Language: Dholuo (luo); dialect groups Nyanduat (North: Siaya, Kisumu) and Milambo (South: Homa Bay, Migori) (dataset card)",
+    "Domain: agriculture; spontaneous answers to Dholuo prompts; recorded 16 May - 16 June 2026 (dataset card)",
+    "Freeform subset as loaded: 1359 rows, 23 speakers, 1019 unique prompts, 30 sub-domains",
+    "Transcripts with [cs] code-switch tags: 225; with an odd number of [cs] tags: 1",
+    "Bracket tag variants observed: ['[cs]', '[?]', '[pause]', '[[cs]', '[CS]', '[saa]', '[Pause]']",
+    "Prompts that map to more than one sub-domain: 0",
+    "Transcripts were editor-reviewed; the card reports no separate third-person quality check"
+  ],
+  "B_processing_by_this_project": [
+    "Column names lower-cased and mapped to dataset-card names (filename->file_name, subdomain->sub_domain, serial->prompt_id)",
+    "Rows with empty transcripts or transcription_approval_status == 'rejected' removed",
+    "Duplicate file_name rows and exact duplicate (speaker, transcript) pairs removed (first kept)",
+    "Target restricted to sub-domains with >= 25 recordings and >= 5 speakers",
+    "Three text variants built: minimal (NFC + whitespace), normalized (+ apostrophes, lower-case, canonical <cs>/<pause>/<unclear> tokens, punctuation spacing), normalized_notags (tag markers removed, code-switched words kept)",
+    "Dialect taken from primary_dholuo_variant (project survey), mapped to Nyanduat / Milambo / Unknown",
+    "Speaker-disjoint train/validation/test split by constrained random search over speakers (seed 42)",
+    "Transcripts cached only in /kaggle/tmp; outputs contain IDs, metrics and models, not raw text files"
+  ],
+  "C_assumptions": [
+    "The sub_domain of the prompt is a valid label for the spoken answer (answers stay on topic); checked qualitatively, not guaranteed",
+    "The editor-approved transcript is treated as the ground-truth text; transcription errors are label-independent noise",
+    "contributor_id identifies one person consistently across subsets (stated by the card) and is the right grouping unit for leakage control",
+    "[cs] spans are a usable (if imperfect) indicator of code-switching for subgroup analysis",
+    "Performance on unseen speakers is the condition that matters for deployment",
+    "Speakers' dialect is constant across their recordings (taken from their survey answer)"
+  ]
+}

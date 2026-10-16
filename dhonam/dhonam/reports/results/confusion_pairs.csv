@@ -1,0 +1,254 @@
+class_a,class_b,confusions,confusion_rate,lexical_similarity
+Access to government programs and subsidies,Agricultural education,5,0.19230769230769232,0.753726833540563
+Access to government programs and subsidies,Animal feeding and nutrition,0,0.0,0.6006469052067893
+Access to government programs and subsidies,Automation and AI in farming,1,0.037037037037037035,0.6570352308457256
+Access to government programs and subsidies,Climate resilience and adaptation strategies,0,0.0,0.6015908460966377
+Access to government programs and subsidies,Contemporary issues in Agriculture,1,0.03125,0.7833633937975836
+Access to government programs and subsidies,Crop Yield and quality,1,0.043478260869565216,0.5820576276831299
+Access to government programs and subsidies,"Distribution channels (local, regional, international)",1,0.03333333333333333,0.6488411869091083
+Access to government programs and subsidies,Economic impact of agricultural practices,1,0.03571428571428571,0.7064265450539227
+Access to government programs and subsidies,Effect of climate change on Agriculture,1,0.034482758620689655,0.695296679707555
+Access to government programs and subsidies,Farming Methods and Systems,0,0.0,0.6773558855521468
+Access to government programs and subsidies,Fish farming,1,0.03333333333333333,0.46940544352734115
+Access to government programs and subsidies,Land ownership and tenure issues,0,0.0,0.6686542765354473
+Access to government programs and subsidies,Livestock production and productivity,1,0.030303030303030304,0.6583717589882856
+Access to government programs and subsidies,Personal Agricultural day to day experience,1,0.030303030303030304,0.7371921054447144
+Access to government programs and subsidies,Post harvesting technology,0,0.0,0.5368354745513079
+Access to government programs and subsidies,Poultry farming,3,0.08823529411764706,0.5475074971185525
+Access to government programs and subsidies,"Precision agriculture tools (drones, GPS, sensors)",1,0.03225806451612903,0.6781556183879122
+Access to government programs and subsidies,Storage and Transportation,0,0.0,0.5688744856080343
+Access to government programs and subsidies,Use of machinery and equipment,1,0.034482758620689655,0.6469815858708239
+Access to government programs and subsidies,"Value addition (processing, packaging)",0,0.0,0.5374153163230733
+Access to government programs and subsidies,Water Usage and Irrigation Methods,1,0.038461538461538464,0.5950053088207965
+Access to government programs and subsidies,Water and Land Conservation,1,0.043478260869565216,0.5077773638036956
+Agricultural education,Animal feeding and nutrition,0,0.0,0.5887830083718602
+Agricultural education,Automation and AI in farming,0,0.0,0.6009695607480957
+Agricultural education,Climate resilience and adaptation strategies,1,0.05555555555555555,0.5581594436680715
+Agricultural education,Contemporary issues in Agriculture,0,0.0,0.7445989369500271
+Agricultural education,Crop Yield and quality,1,0.09090909090909091,0.546621175069237
+Agricultural education,"Distribution channels (local, regional, international)",0,0.0,0.5663456854410944
+Agricultural education,Economic impact of agricultural practices,0,0.0,0.671422900375642
+Agricultural education,Effect of climate change on Agriculture,1,0.058823529411764705,0.6369836256573224
+Agricultural education,Farming Methods and Systems,2,0.10526315789473684,0.6592604742916153
+Agricultural education,Fish farming,0,0.0,0.4382452627868149
+Agricultural education,Land ownership and tenure issues,0,0.0,0.6163409508999375
+Agricultural education,Livestock production and productivity,0,0.0,0.6058025682787926
+Agricultural education,Personal Agricultural day to day experience,0,0.0,0.7052071601241098
+Agricultural education,Post harvesting technology,0,0.0,0.5232277259441321
+Agricultural education,Poultry farming,0,0.0,0.5047385366173937
+Agricultural education,"Precision agriculture tools (drones, GPS, sensors)",0,0.0,0.6646403112262136
+Agricultural education,Storage and Transportation,0,0.0,0.5461622254930059
+Agricultural education,Use of machinery and equipment,0,0.0,0.5921211813169929
+Agricultural education,"Value addition (processing, packaging)",0,0.0,0.5066601898552056
+Agricultural education,Water Usage and Irrigation Methods,0,0.0,0.5250910860545939
+Agricultural education,Water and Land Conservation,0,0.0,0.5060037357945347
+Animal feeding and nutrition,Automation and AI in farming,0,0.0,0.48767068857151125
+Animal feeding and nutrition,Climate resilience and adaptation strategies,0,0.0,0.5643305505164082
+Animal feeding and nutrition,Contemporary issues in Agriculture,2,0.07692307692307693,0.5668868018378267
+Animal feeding and nutrition,Crop Yield and quality,0,0.0,0.5260446774472629
+Animal feeding and nutrition,"Distribution channels (local, regional, international)",0,0.0,0.5154078060698732
+Animal feeding and nutrition,Economic impact of agricultural practices,0,0.0,0.583532041359012
+Animal feeding and nutrition,Effect of climate change on Agriculture,0,0.0,0.6212484574642388
+Animal feeding and nutrition,Farming Methods and Systems,0,0.0,0.6149014839598148
+Animal feeding and nutrition,Fish farming,0,0.0,0.4649019619783643
+Animal feeding and nutrition,Land ownership and tenure issues,1,0.043478260869565216,0.5189849834340455
+Animal feeding and nutrition,Livestock production and productivity,4,0.14814814814814814,0.7631226819752498
+Animal feeding and nutrition,Personal Agricultural day to day experience,1,0.037037037037037035,0.6119572616114282
+Animal feeding and nutrition,Post harvesting technology,0,0.0,0.5094928220458784
+Animal feeding and nutrition,Poultry farming,0,0.0,0.5543381557159883
+Animal feeding and nutrition,"Precision agriculture tools (drones, GPS, sensors)",1,0.04,0.5756035597084564
+Animal feeding and nutrition,Storage and Transportation,1,0.03571428571428571,0.5856413445322303
+Animal feeding and nutrition,Use of machinery and equipment,1,0.043478260869565216,0.5630719324049982
+Animal feeding and nutrition,"Value addition (processing, packaging)",0,0.0,0.49354392352556237
+Animal feeding and nutrition,Water Usage and Irrigation Methods,0,0.0,0.5151435728372143
+Animal feeding and nutrition,Water and Land Conservation,0,0.0,0.4576397809448759
+Automation and AI in farming,Climate resilience and adaptation strategies,0,0.0,0.49868000080151975
+Automation and AI in farming,Contemporary issues in Agriculture,0,0.0,0.6824303670717001
+Automation and AI in farming,Crop Yield and quality,0,0.0,0.4454905364446239
+Automation and AI in farming,"Distribution channels (local, regional, international)",2,0.10526315789473684,0.5938384551450747
+Automation and AI in farming,Economic impact of agricultural practices,1,0.058823529411764705,0.635002085076903
+Automation and AI in farming,Effect of climate change on Agriculture,0,0.0,0.5770418844033287
+Automation and AI in farming,Farming Methods and Systems,1,0.05,0.6094110523652679
+Automation and AI in farming,Fish farming,0,0.0,0.40601495156630985
+Automation and AI in farming,Land ownership and tenure issues,0,0.0,0.5906445462320168
+Automation and AI in farming,Livestock production and productivity,0,0.0,0.5771822842907631
+Automation and AI in farming,Personal Agricultural day to day experience,0,0.0,0.6507026981692448
+Automation and AI in farming,Post harvesting technology,0,0.0,0.5080282810824079
+Automation and AI in farming,Poultry farming,0,0.0,0.42767434324479014
+Automation and AI in farming,"Precision agriculture tools (drones, GPS, sensors)",2,0.1,0.6561063438839935
+Automation and AI in farming,Storage and Transportation,0,0.0,0.5207376208721893
+Automation and AI in farming,Use of machinery and equipment,2,0.1111111111111111,0.7202110484364028
+Automation and AI in farming,"Value addition (processing, packaging)",0,0.0,0.4577743367305332
+Automation and AI in farming,Water Usage and Irrigation Methods,0,0.0,0.5414736000470095
+Automation and AI in farming,Water and Land Conservation,0,0.0,0.40463628401864116
+Climate resilience and adaptation strategies,Contemporary issues in Agriculture,0,0.0,0.6349270811738811
+Climate resilience and adaptation strategies,Crop Yield and quality,0,0.0,0.5629041019237851
+Climate resilience and adaptation strategies,"Distribution channels (local, regional, international)",2,0.09090909090909091,0.5447694872691143
+Climate resilience and adaptation strategies,Economic impact of agricultural practices,0,0.0,0.5709018227907418
+Climate resilience and adaptation strategies,Effect of climate change on Agriculture,2,0.09523809523809523,0.6863661016331404
+Climate resilience and adaptation strategies,Farming Methods and Systems,0,0.0,0.6326977858992496
+Climate resilience and adaptation strategies,Fish farming,0,0.0,0.40453464219165364
+Climate resilience and adaptation strategies,Land ownership and tenure issues,0,0.0,0.5996978870436214
+Climate resilience and adaptation strategies,Livestock production and productivity,1,0.04,0.6275631496699301
+Climate resilience and adaptation strategies,Personal Agricultural day to day experience,0,0.0,0.6502062992806179
+Climate resilience and adaptation strategies,Post harvesting technology,1,0.04,0.5881774702298713
+Climate resilience and adaptation strategies,Poultry farming,0,0.0,0.5035723598134628
+Climate resilience and adaptation strategies,"Precision agriculture tools (drones, GPS, sensors)",2,0.08695652173913043,0.6470456472437769
+Climate resilience and adaptation strategies,Storage and Transportation,1,0.038461538461538464,0.6575698962225577
+Climate resilience and adaptation strategies,Use of machinery and equipment,1,0.047619047619047616,0.6030714074733584
+Climate resilience and adaptation strategies,"Value addition (processing, packaging)",2,0.1111111111111111,0.6011250056239943
+Climate resilience and adaptation strategies,Water Usage and Irrigation Methods,0,0.0,0.6290346299541284
+Climate resilience and adaptation strategies,Water and Land Conservation,0,0.0,0.6434702525469844
+Contemporary issues in Agriculture,Crop Yield and quality,2,0.11764705882352941,0.6165218913279771
+Contemporary issues in Agriculture,"Distribution channels (local, regional, international)",0,0.0,0.6426705955384232
+Contemporary issues in Agriculture,Economic impact of agricultural practices,2,0.09090909090909091,0.7590844323267736
+Contemporary issues in Agriculture,Effect of climate change on Agriculture,0,0.0,0.7442535038612963
+Contemporary issues in Agriculture,Farming Methods and Systems,2,0.08,0.7422404226874494
+Contemporary issues in Agriculture,Fish farming,0,0.0,0.45315405347026455
+Contemporary issues in Agriculture,Land ownership and tenure issues,0,0.0,0.7246904399271005
+Contemporary issues in Agriculture,Livestock production and productivity,0,0.0,0.606887539807218
+Contemporary issues in Agriculture,Personal Agricultural day to day experience,0,0.0,0.7528292769709259
+Contemporary issues in Agriculture,Post harvesting technology,1,0.037037037037037035,0.5599964968020391
+Contemporary issues in Agriculture,Poultry farming,0,0.0,0.4955033925124801
+Contemporary issues in Agriculture,"Precision agriculture tools (drones, GPS, sensors)",2,0.08,0.7228980924447999
+Contemporary issues in Agriculture,Storage and Transportation,0,0.0,0.5799503141207412
+Contemporary issues in Agriculture,Use of machinery and equipment,0,0.0,0.6758270817006666
+Contemporary issues in Agriculture,"Value addition (processing, packaging)",0,0.0,0.5477560754931496
+Contemporary issues in Agriculture,Water Usage and Irrigation Methods,0,0.0,0.6115320093849763
+Contemporary issues in Agriculture,Water and Land Conservation,1,0.058823529411764705,0.5599859012487218
+Crop Yield and quality,"Distribution channels (local, regional, international)",1,0.06666666666666667,0.490842450950461
+Crop Yield and quality,Economic impact of agricultural practices,0,0.0,0.5328231603331329
+Crop Yield and quality,Effect of climate change on Agriculture,0,0.0,0.6429979483742801
+Crop Yield and quality,Farming Methods and Systems,0,0.0,0.6314537535707939
+Crop Yield and quality,Fish farming,0,0.0,0.3696897240540411
+Crop Yield and quality,Land ownership and tenure issues,0,0.0,0.55062800280669
+Crop Yield and quality,Livestock production and productivity,0,0.0,0.5261094109307245
+Crop Yield and quality,Personal Agricultural day to day experience,0,0.0,0.6015054030950355
+Crop Yield and quality,Post harvesting technology,0,0.0,0.536659948526901
+Crop Yield and quality,Poultry farming,0,0.0,0.44561205442561286
+Crop Yield and quality,"Precision agriculture tools (drones, GPS, sensors)",1,0.0625,0.6097266683082795
+Crop Yield and quality,Storage and Transportation,0,0.0,0.5362981085835945
+Crop Yield and quality,Use of machinery and equipment,0,0.0,0.5125380673577911
+Crop Yield and quality,"Value addition (processing, packaging)",0,0.0,0.5190757924016896
+Crop Yield and quality,Water Usage and Irrigation Methods,1,0.09090909090909091,0.4907917230742316
+Crop Yield and quality,Water and Land Conservation,1,0.125,0.4756811586074363
+"Distribution channels (local, regional, international)",Economic impact of agricultural practices,5,0.25,0.6450923125356396
+"Distribution channels (local, regional, international)",Effect of climate change on Agriculture,1,0.047619047619047616,0.5827621778438481
+"Distribution channels (local, regional, international)",Farming Methods and Systems,1,0.043478260869565216,0.5866979863533902
+"Distribution channels (local, regional, international)",Fish farming,0,0.0,0.44274195623741563
+"Distribution channels (local, regional, international)",Land ownership and tenure issues,1,0.047619047619047616,0.5616939194117851
+"Distribution channels (local, regional, international)",Livestock production and productivity,0,0.0,0.5949304723668211
+"Distribution channels (local, regional, international)",Personal Agricultural day to day experience,0,0.0,0.6275537439759682
+"Distribution channels (local, regional, international)",Post harvesting technology,1,0.04,0.5143168666829607
+"Distribution channels (local, regional, international)",Poultry farming,0,0.0,0.49799788504450015
+"Distribution channels (local, regional, international)","Precision agriculture tools (drones, GPS, sensors)",1,0.043478260869565216,0.5932029756529518
+"Distribution channels (local, regional, international)",Storage and Transportation,2,0.07692307692307693,0.6042996124255782
+"Distribution channels (local, regional, international)",Use of machinery and equipment,0,0.0,0.5797276711134094
+"Distribution channels (local, regional, international)","Value addition (processing, packaging)",5,0.2777777777777778,0.5640552813389255
+"Distribution channels (local, regional, international)",Water Usage and Irrigation Methods,0,0.0,0.49429862514030265
+"Distribution channels (local, regional, international)",Water and Land Conservation,0,0.0,0.4108772601725953
+Economic impact of agricultural practices,Effect of climate change on Agriculture,0,0.0,0.6750491112397933
+Economic impact of agricultural practices,Farming Methods and Systems,1,0.047619047619047616,0.6845920682637768
+Economic impact of agricultural practices,Fish farming,0,0.0,0.46453485150290513
+Economic impact of agricultural practices,Land ownership and tenure issues,1,0.05263157894736842,0.6866252657333912
+Economic impact of agricultural practices,Livestock production and productivity,0,0.0,0.6535848597966386
+Economic impact of agricultural practices,Personal Agricultural day to day experience,2,0.08695652173913043,0.7289232376901399
+Economic impact of agricultural practices,Post harvesting technology,0,0.0,0.5139837392453468
+Economic impact of agricultural practices,Poultry farming,0,0.0,0.4925703617513793
+Economic impact of agricultural practices,"Precision agriculture tools (drones, GPS, sensors)",0,0.0,0.6529906067341095
+Economic impact of agricultural practices,Storage and Transportation,0,0.0,0.561974714440537
+Economic impact of agricultural practices,Use of machinery and equipment,1,0.05263157894736842,0.6368048714398451
+Economic impact of agricultural practices,"Value addition (processing, packaging)",1,0.0625,0.5443717996338637
+Economic impact of agricultural practices,Water Usage and Irrigation Methods,0,0.0,0.5574040082185754
+Economic impact of agricultural practices,Water and Land Conservation,0,0.0,0.4732824432666296
+Effect of climate change on Agriculture,Farming Methods and Systems,0,0.0,0.7257187163202629
+Effect of climate change on Agriculture,Fish farming,1,0.047619047619047616,0.46735487068569015
+Effect of climate change on Agriculture,Land ownership and tenure issues,2,0.1,0.6816464581159312
+Effect of climate change on Agriculture,Livestock production and productivity,0,0.0,0.6512400016862026
+Effect of climate change on Agriculture,Personal Agricultural day to day experience,1,0.041666666666666664,0.7252206964021042
+Effect of climate change on Agriculture,Post harvesting technology,0,0.0,0.5720826905116582
+Effect of climate change on Agriculture,Poultry farming,2,0.08,0.5092887515935943
+Effect of climate change on Agriculture,"Precision agriculture tools (drones, GPS, sensors)",1,0.045454545454545456,0.6684316663420744
+Effect of climate change on Agriculture,Storage and Transportation,0,0.0,0.5930291407008309
+Effect of climate change on Agriculture,Use of machinery and equipment,0,0.0,0.6000278049278764
+Effect of climate change on Agriculture,"Value addition (processing, packaging)",0,0.0,0.5300651153658366
+Effect of climate change on Agriculture,Water Usage and Irrigation Methods,0,0.0,0.6632723199921271
+Effect of climate change on Agriculture,Water and Land Conservation,0,0.0,0.6266352289850006
+Farming Methods and Systems,Fish farming,0,0.0,0.5182434699196744
+Farming Methods and Systems,Land ownership and tenure issues,1,0.045454545454545456,0.6770309290045717
+Farming Methods and Systems,Livestock production and productivity,0,0.0,0.6627540843403601
+Farming Methods and Systems,Personal Agricultural day to day experience,0,0.0,0.7324311418158322
+Farming Methods and Systems,Post harvesting technology,0,0.0,0.5596263437912059
+Farming Methods and Systems,Poultry farming,2,0.07407407407407407,0.5467980134365518
+Farming Methods and Systems,"Precision agriculture tools (drones, GPS, sensors)",0,0.0,0.6848455831173559
+Farming Methods and Systems,Storage and Transportation,1,0.037037037037037035,0.6014973341583902
+Farming Methods and Systems,Use of machinery and equipment,0,0.0,0.6321099137940035
+Farming Methods and Systems,"Value addition (processing, packaging)",0,0.0,0.5431779420748062
+Farming Methods and Systems,Water Usage and Irrigation Methods,3,0.15789473684210525,0.630668323903073
+Farming Methods and Systems,Water and Land Conservation,0,0.0,0.5779461549363423
+Fish farming,Land ownership and tenure issues,0,0.0,0.43154498611184106
+Fish farming,Livestock production and productivity,0,0.0,0.5247332281997574
+Fish farming,Personal Agricultural day to day experience,0,0.0,0.5239964824702663
+Fish farming,Post harvesting technology,1,0.04,0.420394024851975
+Fish farming,Poultry farming,0,0.0,0.40723799736161304
+Fish farming,"Precision agriculture tools (drones, GPS, sensors)",1,0.043478260869565216,0.45235646133430824
+Fish farming,Storage and Transportation,1,0.038461538461538464,0.5117735729425431
+Fish farming,Use of machinery and equipment,1,0.047619047619047616,0.4095721623124637
+Fish farming,"Value addition (processing, packaging)",0,0.0,0.40612535654788445
+Fish farming,Water Usage and Irrigation Methods,1,0.05555555555555555,0.44147552945513546
+Fish farming,Water and Land Conservation,0,0.0,0.34490990344702804
+Land ownership and tenure issues,Livestock production and productivity,0,0.0,0.5849369147136588
+Land ownership and tenure issues,Personal Agricultural day to day experience,0,0.0,0.6872985412021771
+Land ownership and tenure issues,Post harvesting technology,0,0.0,0.489439732104682
+Land ownership and tenure issues,Poultry farming,0,0.0,0.46122072296929234
+Land ownership and tenure issues,"Precision agriculture tools (drones, GPS, sensors)",0,0.0,0.6034500123808512
+Land ownership and tenure issues,Storage and Transportation,2,0.08,0.5289626996372863
+Land ownership and tenure issues,Use of machinery and equipment,0,0.0,0.5534365638366422
+Land ownership and tenure issues,"Value addition (processing, packaging)",0,0.0,0.5003901223118387
+Land ownership and tenure issues,Water Usage and Irrigation Methods,0,0.0,0.5036022193612266
+Land ownership and tenure issues,Water and Land Conservation,0,0.0,0.5959994308873103
+Livestock production and productivity,Personal Agricultural day to day experience,1,0.03571428571428571,0.6830788545592206
+Livestock production and productivity,Post harvesting technology,1,0.03571428571428571,0.538138365858299
+Livestock production and productivity,Poultry farming,0,0.0,0.5980407487002737
+Livestock production and productivity,"Precision agriculture tools (drones, GPS, sensors)",0,0.0,0.5972825397463102
+Livestock production and productivity,Storage and Transportation,0,0.0,0.6338721600776386
+Livestock production and productivity,Use of machinery and equipment,0,0.0,0.5981715122341373
+Livestock production and productivity,"Value addition (processing, packaging)",0,0.0,0.5441226777073362
+Livestock production and productivity,Water Usage and Irrigation Methods,0,0.0,0.5516889785515664
+Livestock production and productivity,Water and Land Conservation,0,0.0,0.4851932095796345
+Personal Agricultural day to day experience,Post harvesting technology,0,0.0,0.587449748054225
+Personal Agricultural day to day experience,Poultry farming,1,0.034482758620689655,0.5469136707015001
+Personal Agricultural day to day experience,"Precision agriculture tools (drones, GPS, sensors)",0,0.0,0.6789049042035504
+Personal Agricultural day to day experience,Storage and Transportation,0,0.0,0.6139217500505173
+Personal Agricultural day to day experience,Use of machinery and equipment,1,0.041666666666666664,0.6638633824427487
+Personal Agricultural day to day experience,"Value addition (processing, packaging)",0,0.0,0.5674275878445361
+Personal Agricultural day to day experience,Water Usage and Irrigation Methods,0,0.0,0.6293996464070097
+Personal Agricultural day to day experience,Water and Land Conservation,4,0.2222222222222222,0.5604912436982641
+Post harvesting technology,Poultry farming,0,0.0,0.46872527072323805
+Post harvesting technology,"Precision agriculture tools (drones, GPS, sensors)",0,0.0,0.5513763233452569
+Post harvesting technology,Storage and Transportation,5,0.1724137931034483,0.6722046645683062
+Post harvesting technology,Use of machinery and equipment,1,0.041666666666666664,0.5448631224557199
+Post harvesting technology,"Value addition (processing, packaging)",1,0.047619047619047616,0.59530579904281
+Post harvesting technology,Water Usage and Irrigation Methods,0,0.0,0.4853475092266365
+Post harvesting technology,Water and Land Conservation,1,0.05555555555555555,0.4383133506028962
+Poultry farming,"Precision agriculture tools (drones, GPS, sensors)",1,0.037037037037037035,0.5017588972274175
+Poultry farming,Storage and Transportation,0,0.0,0.5094699372988503
+Poultry farming,Use of machinery and equipment,0,0.0,0.4584949687251926
+Poultry farming,"Value addition (processing, packaging)",0,0.0,0.4670895010441379
+Poultry farming,Water Usage and Irrigation Methods,0,0.0,0.425516855154482
+Poultry farming,Water and Land Conservation,0,0.0,0.3904517479950943
+"Precision agriculture tools (drones, GPS, sensors)",Storage and Transportation,0,0.0,0.6088031766592265
+"Precision agriculture tools (drones, GPS, sensors)",Use of machinery and equipment,1,0.045454545454545456,0.6724467502241727
+"Precision agriculture tools (drones, GPS, sensors)","Value addition (processing, packaging)",0,0.0,0.5417116169099411
+"Precision agriculture tools (drones, GPS, sensors)",Water Usage and Irrigation Methods,0,0.0,0.6582415604078611
+"Precision agriculture tools (drones, GPS, sensors)",Water and Land Conservation,0,0.0,0.5340935469568613
+Storage and Transportation,Use of machinery and equipment,0,0.0,0.6017837795088717
+Storage and Transportation,"Value addition (processing, packaging)",3,0.13636363636363635,0.6926019768096552
+Storage and Transportation,Water Usage and Irrigation Methods,0,0.0,0.5494941439022096
+Storage and Transportation,Water and Land Conservation,0,0.0,0.48346881049744383
+Use of machinery and equipment,"Value addition (processing, packaging)",2,0.11764705882352941,0.5617456604410301
+Use of machinery and equipment,Water Usage and Irrigation Methods,0,0.0,0.6092821822479061
+Use of machinery and equipment,Water and Land Conservation,0,0.0,0.47510486140942854
+"Value addition (processing, packaging)",Water Usage and Irrigation Methods,0,0.0,0.4575350769176358
+"Value addition (processing, packaging)",Water and Land Conservation,0,0.0,0.43907870752919387
+Water Usage and Irrigation Methods,Water and Land Conservation,0,0.0,0.5562769501139189

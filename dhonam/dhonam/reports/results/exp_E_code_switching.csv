@@ -1,0 +1,21 @@
+model,cs_group,n,speakers,acc,macro_f1,macro_f1_95ci,source
+svm_wordchar,Dholuo only,198,5,0.4444,0.3939,"[0.315, 0.442]",test
+svm_wordchar,code-switched,52,5,0.4615,0.4496,"[0.318, 0.570]",test
+lora_afroxlmr_large_114L,Dholuo only,198,5,0.4242,0.394,"[0.314, 0.449]",test
+lora_afroxlmr_large_114L,code-switched,52,5,0.4808,0.4569,"[0.338, 0.591]",test
+lr_word,Dholuo only,198,5,0.4394,0.3961,"[0.320, 0.444]",test
+lr_word,code-switched,52,5,0.3654,0.3648,"[0.233, 0.479]",test
+lr_char,Dholuo only,198,5,0.4091,0.3597,"[0.285, 0.408]",test
+lr_char,code-switched,52,5,0.4038,0.4027,"[0.263, 0.522]",test
+full_afroxlmr_large_114L,Dholuo only,198,5,0.4646,0.421,"[0.348, 0.476]",test
+full_afroxlmr_large_114L,code-switched,52,5,0.4423,0.3874,"[0.281, 0.531]",test
+bilstm,Dholuo only,198,5,0.3283,0.2619,"[0.208, 0.302]",test
+bilstm,code-switched,52,5,0.3462,0.3061,"[0.197, 0.431]",test
+frozen_afroxlmr_large_114L,Dholuo only,198,5,0.2626,0.2225,"[0.167, 0.265]",test
+frozen_afroxlmr_large_114L,code-switched,52,5,0.2308,0.211,"[0.107, 0.310]",test
+full_xlmr_large,Dholuo only,198,5,0.1364,0.0782,"[0.049, 0.104]",test
+full_xlmr_large,code-switched,52,5,0.1154,0.0904,"[0.031, 0.152]",test
+lr_word,Dholuo only,847,18,0.4168,0.3668,"[0.334, 0.393]",dev_oof
+lr_word,code-switched,151,18,0.4172,0.3554,"[0.275, 0.426]",dev_oof
+bilstm,Dholuo only,847,18,0.3093,0.2791,"[0.251, 0.302]",dev_oof
+bilstm,code-switched,151,18,0.3046,0.3019,"[0.223, 0.364]",dev_oof

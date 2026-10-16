@@ -1,0 +1,14 @@
+{
+  "svm_wordchar - nllb+zeroshot_bart": {
+    "diff": 0.23156036043964093,
+    "ci_lo": 0.16065791050240957,
+    "ci_hi": 0.2970864400737143,
+    "p_a_better": 1.0
+  },
+  "svm_wordchar - nllb+tfidf_lr": {
+    "diff": 0.09465911690323664,
+    "ci_lo": 0.03513913852255913,
+    "ci_hi": 0.1500264409383133,
+    "p_a_better": 1.0
+  }
+}

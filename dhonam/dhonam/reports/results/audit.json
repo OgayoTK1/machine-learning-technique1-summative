@@ -1,0 +1,259 @@
+{
+  "freeform": {
+    "subset": "freeform",
+    "n_rows": 1359,
+    "columns": [
+      "file_name",
+      "contributor_id",
+      "duration_sec",
+      "transcript",
+      "original_transcription",
+      "was_edited",
+      "prompt",
+      "prompt_id",
+      "domain",
+      "sub_domain",
+      "language",
+      "source",
+      "recorded_date",
+      "recording_approval_status",
+      "transcription_approval_status"
+    ],
+    "nulls": {},
+    "empty_transcripts": 0,
+    "dup_file_name": 0,
+    "dup_transcript_exact": 0,
+    "dup_transcript_same_speaker": 0,
+    "n_speakers": 23,
+    "recordings_per_speaker": {
+      "min": 10,
+      "median": 55.0,
+      "max": 151
+    },
+    "n_unique_prompts": 1019,
+    "prompts_answered_more_than_once": 340,
+    "rows_whose_prompt_repeats": 680,
+    "prompts_with_multiple_speakers": 340,
+    "values_domain": {
+      "Agriculture": 1359
+    },
+    "values_language": {
+      "luo": 1359
+    },
+    "values_source": {
+      "utavu": 1359
+    },
+    "recording_approval_status": {
+      "approved": 1359
+    },
+    "transcription_approval_status": {
+      "approved": 1359
+    },
+    "was_edited": {
+      "no": 773,
+      "yes": 586
+    },
+    "words_per_transcript": {
+      "count": 1359.0,
+      "mean": 59.9,
+      "std": 24.9,
+      "min": 16.0,
+      "25%": 42.0,
+      "50%": 55.0,
+      "75%": 75.0,
+      "max": 158.0
+    },
+    "transcripts_under_5_words": 0,
+    "duration_sec": {
+      "count": 1359.0,
+      "mean": 28.18,
+      "std": 12.22,
+      "min": 10.08,
+      "25%": 18.6,
+      "50%": 25.26,
+      "75%": 36.18,
+      "max": 59.82
+    },
+    "total_hours": 10.64,
+    "words_per_sec": {
+      "count": 1359.0,
+      "mean": 2.19,
+      "std": 0.48,
+      "min": 1.03,
+      "25%": 1.86,
+      "50%": 2.14,
+      "75%": 2.46,
+      "max": 3.84
+    },
+    "speech_rate_outliers(<0.5 or >4.5 w/s)": 0,
+    "bracket_tag_variants": {
+      "[cs]": 771,
+      "[?]": 46,
+      "[pause]": 17,
+      "[[cs]": 2,
+      "[CS]": 2,
+      "[saa]": 1,
+      "[Pause]": 1
+    },
+    "transcripts_with_cs_tag": 225,
+    "transcripts_with_odd_cs_tag_count": 1,
+    "transcripts_with_unclosed_tag": 1,
+    "transcripts_with_nonstraight_apostrophe": 20,
+    "transcripts_with_straight_apostrophe": 1036,
+    "transcripts_with_missing_space_after_punct": 144,
+    "transcripts_with_uppercase": 1334,
+    "non_ascii_chars": {}
+  },
+  "image": {
+    "subset": "image",
+    "n_rows": 1029,
+    "columns": [
+      "file_name",
+      "contributor_id",
+      "duration_sec",
+      "transcript",
+      "original_transcription",
+      "was_edited",
+      "prompt",
+      "prompt_id",
+      "image_filename",
+      "domain",
+      "language",
+      "source",
+      "recorded_date",
+      "recording_approval_status",
+      "transcription_approval_status"
+    ],
+    "nulls": {},
+    "empty_transcripts": 0,
+    "dup_file_name": 0,
+    "dup_transcript_exact": 0,
+    "dup_transcript_same_speaker": 0,
+    "n_speakers": 21,
+    "recordings_per_speaker": {
+      "min": 21,
+      "median": 47.0,
+      "max": 89
+    },
+    "n_unique_prompts": 658,
+    "prompts_answered_more_than_once": 370,
+    "rows_whose_prompt_repeats": 741,
+    "prompts_with_multiple_speakers": 370,
+    "values_domain": {
+      "Agriculture": 1029
+    },
+    "values_language": {
+      "luo": 1029
+    },
+    "values_source": {
+      "utavu": 1029
+    },
+    "recording_approval_status": {
+      "approved": 1029
+    },
+    "transcription_approval_status": {
+      "approved": 1028,
+      "rejected": 1
+    },
+    "was_edited": {
+      "no": 868,
+      "yes": 161
+    },
+    "words_per_transcript": {
+      "count": 1029.0,
+      "mean": 64.3,
+      "std": 24.4,
+      "min": 17.0,
+      "25%": 45.0,
+      "50%": 62.0,
+      "75%": 81.0,
+      "max": 172.0
+    },
+    "transcripts_under_5_words": 0,
+    "duration_sec": {
+      "count": 1029.0,
+      "mean": 31.22,
+      "std": 13.03,
+      "min": 10.02,
+      "25%": 20.4,
+      "50%": 29.28,
+      "75%": 41.1,
+      "max": 60.0
+    },
+    "total_hours": 8.93,
+    "words_per_sec": {
+      "count": 1029.0,
+      "mean": 2.14,
+      "std": 0.43,
+      "min": 1.0,
+      "25%": 1.83,
+      "50%": 2.1,
+      "75%": 2.39,
+      "max": 3.76
+    },
+    "speech_rate_outliers(<0.5 or >4.5 w/s)": 0,
+    "bracket_tag_variants": {
+      "[cs]": 604,
+      "[?]": 33,
+      "[pause]": 6,
+      "[cs[ (unclosed tag; transcript text removed from this copy)": 1,
+      "[csjuice[cs]": 1,
+      "[cs ]": 1
+    },
+    "transcripts_with_cs_tag": 171,
+    "transcripts_with_odd_cs_tag_count": 2,
+    "transcripts_with_unclosed_tag": 2,
+    "transcripts_with_nonstraight_apostrophe": 21,
+    "transcripts_with_straight_apostrophe": 777,
+    "transcripts_with_missing_space_after_punct": 71,
+    "transcripts_with_uppercase": 1026,
+    "non_ascii_chars": {
+      "U+2019 \u2019": 29
+    }
+  },
+  "contributors": {
+    "n_in_metadata": 23,
+    "freeform_speakers_missing_metadata": 0,
+    "image_speakers_not_in_freeform": 0,
+    "gender": {
+      "Male": 12,
+      "Female": 11
+    },
+    "age_category": {
+      "18-29": 18,
+      "30-39": 4,
+      "50-59": 1
+    },
+    "dialect": {
+      "Nyanduat": 14,
+      "Milambo": 9
+    },
+    "employment_status": {
+      "Self-employed": 7,
+      "Employed": 6,
+      "Student": 5,
+      "Unemployed": 4,
+      "Student, Self-employed": 1
+    },
+    "highest_level_of_education": {
+      "Graduate (Bachelors)": 10,
+      "Tertiary (College diploma, certificate)": 9,
+      "Secondary": 3,
+      "Post-graduate (Masters, PhD)": 1
+    },
+    "dialect_fields_disagree": 14
+  },
+  "label": {
+    "n_classes_total": 30,
+    "n_classes_eligible": 23,
+    "rows_in_eligible_classes": 1248,
+    "rows_in_excluded_classes": 111,
+    "prompts_mapping_to_more_than_one_sub_domain": 0,
+    "imbalance_ratio_eligible(max/min)": 3.3
+  },
+  "prompt_echo": {
+    "median_share_of_prompt_words_in_transcript": 0.6,
+    "share_of_transcripts_covering_>=80%_of_prompt_words": 0.149,
+    "share_of_transcripts_opening_with_the_prompt": 0.335
+  }
+}

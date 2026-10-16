@@ -1,0 +1,21 @@
+model,dialect,n,speakers,acc,macro_f1,macro_f1_95ci,source
+svm_wordchar,Milambo,177,3,0.4576,0.412,"[0.334, 0.470]",test
+svm_wordchar,Nyanduat,73,2,0.4247,0.3948,"[0.309, 0.521]",test
+lora_afroxlmr_large_114L,Milambo,177,3,0.435,0.4064,"[0.325, 0.453]",test
+lora_afroxlmr_large_114L,Nyanduat,73,2,0.4384,0.4448,"[0.327, 0.546]",test
+lr_word,Milambo,177,3,0.435,0.3947,"[0.313, 0.446]",test
+lr_word,Nyanduat,73,2,0.3973,0.3949,"[0.307, 0.526]",test
+lr_char,Milambo,177,3,0.4181,0.3698,"[0.299, 0.421]",test
+lr_char,Nyanduat,73,2,0.3836,0.3901,"[0.293, 0.497]",test
+full_afroxlmr_large_114L,Milambo,177,3,0.4463,0.4006,"[0.332, 0.447]",test
+full_afroxlmr_large_114L,Nyanduat,73,2,0.4932,0.4583,"[0.358, 0.591]",test
+bilstm,Milambo,177,3,0.3333,0.284,"[0.216, 0.330]",test
+bilstm,Nyanduat,73,2,0.3288,0.3035,"[0.205, 0.397]",test
+frozen_afroxlmr_large_114L,Milambo,177,3,0.2712,0.2245,"[0.167, 0.275]",test
+frozen_afroxlmr_large_114L,Nyanduat,73,2,0.2192,0.1973,"[0.117, 0.279]",test
+full_xlmr_large,Milambo,177,3,0.113,0.0803,"[0.047, 0.111]",test
+full_xlmr_large,Nyanduat,73,2,0.1781,0.0855,"[0.042, 0.142]",test
+lr_word,Milambo,258,6,0.407,0.3733,"[0.310, 0.421]",dev_oof
+lr_word,Nyanduat,740,12,0.4203,0.372,"[0.340, 0.403]",dev_oof
+bilstm,Milambo,258,6,0.2946,0.287,"[0.232, 0.332]",dev_oof
+bilstm,Nyanduat,740,12,0.3135,0.2851,"[0.251, 0.311]",dev_oof

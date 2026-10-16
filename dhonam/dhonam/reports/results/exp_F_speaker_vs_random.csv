@@ -1,0 +1,5 @@
+model,split,mean,std
+bilstm,random rows,0.2796,0.011
+bilstm,speaker-grouped,0.2593,0.0044
+lr_word,random rows,0.4041,0.0135
+lr_word,speaker-grouped,0.3684,0.0216

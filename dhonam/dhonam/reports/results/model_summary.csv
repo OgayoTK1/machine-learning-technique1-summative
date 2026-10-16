@@ -1,0 +1,11 @@
+model,runs,total_params,trainable_params,mean_train_time_s,peak_gpu_gb
+bilstm,3,563095.0,,14.566666666666668,
+dummy_most_frequent,1,,,,
+dummy_stratified,1,,,,
+frozen_afroxlmr_large_114L,1,,23575.0,58.9,
+full_afroxlmr_large_114L,3,559914007.0,303911959.0,577.1666666666666,7.15
+full_xlmr_large,3,559914007.0,303911959.0,312.76666666666665,7.15
+lora_afroxlmr_large_114L,3,562560046.0,2646039.0,346.0333333333333,4.51
+lr_char,1,,,20.0,
+lr_word,1,,,37.3,
+svm_wordchar,1,,,5.6,

@@ -1,0 +1,36 @@
+{
+  "what_failed": "138 of 250 test transcripts misclassified (error rate 55.2%)",
+  "most_confused_pairs": [
+    "Access to government programs and subsidies -> Agricultural education (5)",
+    "Personal Agricultural day to day experience -> Water and Land Conservation (4)",
+    "Value addition (processing, packaging) -> Distribution channels (local, regional, international) (4)",
+    "Storage and Transportation -> Post harvesting technology (4)",
+    "Economic impact of agricultural practices -> Distribution channels (local, regional, international) (4)"
+  ],
+  "highest_relative_risk_flags": [
+    {
+      "flag": "prompt unseen in training",
+      "relative_risk": 1.401,
+      "rows_flagged": 149
+    },
+    {
+      "flag": "gold class has low training support",
+      "relative_risk": 1.221,
+      "rows_flagged": 61
+    },
+    {
+      "flag": "long (>= train Q3 words)",
+      "relative_risk": 1.018,
+      "rows_flagged": 142
+    }
+  ],
+  "similarity_vs_confusion_spearman": {
+    "rho": 0.247,
+    "p": 7.146660967694972e-05
+  },
+  "rows_wrong_for_all_models": 74,
+  "per_speaker_error_range": [
+    0.49,
+    0.587
+  ]
+}

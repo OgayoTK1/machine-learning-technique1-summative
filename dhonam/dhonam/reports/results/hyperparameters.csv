@@ -1,0 +1,32 @@
+,TF-IDF + LR (word),TF-IDF + SVM,BiLSTM + attention,Transformer full FT,Transformer LoRA
+ngram,"[1, 1]",,,,
+min_df,1,,,,
+C,1,0.1,,,
+class_weight,balanced,balanced,balanced,balanced,
+solver,"lbfgs, max_iter 5000",,,,
+selection,grid on validation macro-F1,grid on validation macro-F1,,,
+emb_dim,,,128.0,,
+hidden,,,128.0,,
+dropout,,,0.4,,
+lr,,,0.002,2e-05,0.0002
+weight_decay,,,0.0001,0.01,
+batch_size,,,32.0,8.0,
+max_epochs,,,40.0,20.0,20.0
+patience,,,6.0,5.0,5.0
+optimizer,,,AdamW,AdamW,
+scheduler,,,none (constant LR),linear warmup + linear decay,
+max_len,,,200.0,256.0,
+min_freq,,,2.0,,
+grad_clip,,,1.0,,
+seeds,,,"[13, 42, 2026]","[13, 42, 2026]","[13, 42, 2026]"
+checkpoint,,,,Davlan/afro-xlmr-large-114L,Davlan/afro-xlmr-large-114L
+grad_accum,,,,2.0,
+effective_batch,,,,16.0,
+warmup_ratio,,,,0.1,
+fp16,,,,True,
+frozen_input_embeddings,,,,True,
+gradient_checkpointing,,,,True,
+lora_r,,,,,16.0
+lora_alpha,,,,,32.0
+lora_dropout,,,,,0.1
+target_modules,,,,,"['query', 'value']"

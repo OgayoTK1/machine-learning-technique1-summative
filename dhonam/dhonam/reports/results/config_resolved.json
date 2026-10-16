@@ -1,0 +1,236 @@
+{
+  "run_profile": "full",
+  "dataset_id": "MCAA1-MSU/twb_luo_ke",
+  "out_dir": "/kaggle/working/dholuo_topic",
+  "private_dir": "/kaggle/tmp/dholuo_private",
+  "seed": 42,
+  "seeds": [
+    13,
+    42,
+    2026
+  ],
+  "min_class_count": 25,
+  "min_class_speakers": 5,
+  "test_frac": 0.2,
+  "val_frac": 0.15,
+  "split_trials": 20000,
+  "cv_folds": 5,
+  "bootstrap_iters": 2000,
+  "data_fractions": [
+    0.1,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "random_split_reps": 5,
+  "class_weighting": "balanced",
+  "tfidf_grids": {
+    "lr_word": {
+      "ngram": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "min_df": [
+        1,
+        2
+      ],
+      "C": [
+        0.5,
+        1,
+        2,
+        5,
+        10,
+        20
+      ]
+    },
+    "lr_char": {
+      "ngram": [
+        [
+          2,
+          5
+        ]
+      ],
+      "min_df": [
+        2
+      ],
+      "C": [
+        0.5,
+        1,
+        2,
+        5,
+        10,
+        20
+      ]
+    },
+    "svm_wordchar": {
+      "C": [
+        0.02,
+        0.05,
+        0.1,
+        0.5,
+        1.0
+      ]
+    }
+  },
+  "bilstm": {
+    "emb_dim": 128,
+    "hidden": 128,
+    "dropout": 0.4,
+    "lr": 0.002,
+    "weight_decay": 0.0001,
+    "batch_size": 32,
+    "epochs": 40,
+    "patience": 6,
+    "min_freq": 2,
+    "max_len": 200,
+    "grad_clip": 1.0,
+    "optimizer": "AdamW",
+    "scheduler": "none (constant LR)",
+    "early_stopping": "val macro-F1, patience=6"
+  },
+  "transformers": {
+    "models": {
+      "afroxlmr_large_114L": "Davlan/afro-xlmr-large-114L",
+      "xlmr_large": "FacebookAI/xlm-roberta-large"
+    },
+    "primary": "afroxlmr_large_114L",
+    "max_len": 256,
+    "batch_size": 8,
+    "grad_accum": 2,
+    "eval_batch_size": 32,
+    "freeze_embeddings": true,
+    "gradient_checkpointing": true,
+    "oom_retries": 2,
+    "lr_full": 2e-05,
+    "lr_lora": 0.0002,
+    "weight_decay": 0.01,
+    "warmup_ratio": 0.1,
+    "epochs": 20,
+    "patience": 5,
+    "grad_clip": 1.0,
+    "fp16": true,
+    "optimizer": "AdamW",
+    "scheduler": "linear warmup + linear decay",
+    "early_stopping": "val macro-F1, patience=5",
+    "lora": {
+      "r": 16,
+      "alpha": 32,
+      "dropout": 0.1,
+      "target_modules": [
+        "query",
+        "value"
+      ]
+    },
+    "frozen_pooling": "masked mean of last hidden layer"
+  },
+  "translate": {
+    "mt_model": "facebook/nllb-200-distilled-600M",
+    "src_lang": "luo_Latn",
+    "tgt_lang": "eng_Latn",
+    "chunk_words": 40,
+    "batch_size": 32,
+    "num_beams": 2,
+    "max_src_tokens": 128,
+    "max_new_tokens": 128,
+    "zero_shot_model": "facebook/bart-large-mnli",
+    "zero_shot_template": "This text is about {}."
+  },
+  "run": {
+    "transformers": true,
+    "xlmr_comparison": true,
+    "lora": true,
+    "frozen": true,
+    "transformer_learning_curve": true,
+    "transformer_class_weight_ablation": false,
+    "occlusion_examples": true,
+    "translate_baselines": true
+  },
+  "primary_variant": "normalized",
+  "tuned_tfidf": {
+    "lr_word|minimal": {
+      "ngram": [
+        1,
+        2
+      ],
+      "min_df": 2,
+      "C": 1
+    },
+    "lr_word|normalized": {
+      "ngram": [
+        1,
+        1
+      ],
+      "min_df": 1,
+      "C": 1
+    },
+    "lr_word|normalized_notags": {
+      "ngram": [
+        1,
+        1
+      ],
+      "min_df": 2,
+      "C": 2
+    },
+    "lr_char|normalized": {
+      "ngram": [
+        2,
+        5
+      ],
+      "min_df": 2,
+      "C": 1
+    },
+    "svm_wordchar|normalized": {
+      "C": 0.1
+    }
+  },
+  "final_model": "svm_wordchar",
+  "final_run": "main|svm_wordchar|normalized|0",
+  "labels": [
+    "Access to government programs and subsidies",
+    "Agricultural education",
+    "Animal feeding and nutrition",
+    "Automation and AI in farming",
+    "Climate resilience and adaptation strategies",
+    "Contemporary issues in Agriculture",
+    "Crop Yield and quality",
+    "Distribution channels (local, regional, international)",
+    "Economic impact of agricultural practices",
+    "Effect of climate change on Agriculture",
+    "Farming Methods and Systems",
+    "Fish farming",
+    "Land ownership and tenure issues",
+    "Livestock production and productivity",
+    "Personal Agricultural day to day experience",
+    "Post harvesting technology",
+    "Poultry farming",
+    "Precision agriculture tools (drones, GPS, sensors)",
+    "Storage and Transportation",
+    "Use of machinery and equipment",
+    "Value addition (processing, packaging)",
+    "Water Usage and Irrigation Methods",
+    "Water and Land Conservation"
+  ],
+  "test_speakers": [
+    "2c528070",
+    "44583d89",
+    "58a66fc4",
+    "5971d88c",
+    "d3a663cb"
+  ],
+  "val_speakers": [
+    "1682355b",
+    "25110697",
+    "54eb4538",
+    "89f0a13b",
+    "dcbf6f84"
+  ],
+  "dataset_revision": "5cbcd61d844e29e80e5e574fa14a7c54603052c3",
+  "runtime_min": 165.0
+}

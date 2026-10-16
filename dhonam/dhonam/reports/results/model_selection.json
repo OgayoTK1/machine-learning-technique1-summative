@@ -1,0 +1,53 @@
+{
+  "final_model": "svm_wordchar",
+  "final_run": "main|svm_wordchar|normalized|0",
+  "best_val_model": "svm_wordchar",
+  "threshold": 0.4323614007037513,
+  "within_one_sd": [
+    "svm_wordchar"
+  ],
+  "paired_bootstrap": {
+    "svm_wordchar - lora_afroxlmr_large_114L": {
+      "diff": -0.006817350925572452,
+      "ci_lo": -0.0739480936324064,
+      "ci_hi": 0.0561629076341242,
+      "p_a_better": 0.402
+    },
+    "svm_wordchar - lr_word": {
+      "diff": 0.017232410022802735,
+      "ci_lo": -0.030754967750293103,
+      "ci_hi": 0.0605659407407041,
+      "p_a_better": 0.7565
+    },
+    "svm_wordchar - lr_char": {
+      "diff": 0.04243208311949509,
+      "ci_lo": 0.005545146588581386,
+      "ci_hi": 0.0761455770282957,
+      "p_a_better": 0.9885
+    },
+    "svm_wordchar - full_afroxlmr_large_114L": {
+      "diff": -0.01410259968922567,
+      "ci_lo": -0.07329962373642915,
+      "ci_hi": 0.040926167745080635,
+      "p_a_better": 0.309
+    },
+    "svm_wordchar - bilstm": {
+      "diff": 0.1239734329218754,
+      "ci_lo": 0.05511622916047983,
+      "ci_hi": 0.18667474984434726,
+      "p_a_better": 0.9995
+    },
+    "svm_wordchar - frozen_afroxlmr_large_114L": {
+      "diff": 0.18561006665492544,
+      "ci_lo": 0.11966022725801981,
+      "ci_hi": 0.24349887564558365,
+      "p_a_better": 1.0
+    },
+    "svm_wordchar - full_xlmr_large": {
+      "diff": 0.32251239138505855,
+      "ci_lo": 0.2549215342313833,
+      "ci_hi": 0.3792691526338777,
+      "p_a_better": 1.0
+    }
+  }
+}

@@ -1,0 +1,6 @@
+step,reason,rows_before,removed,rows_after
+empty transcript,nothing to classify,1359,0,1359
+rejected transcription,validators rejected the text,1359,0,1359
+duplicate file_name,one recording must appear once,1359,0,1359
+"duplicate (speaker, transcript)",identical rows add no information and can straddle splits,1359,0,1359
+class not eligible,<25 rows or <5 speakers,1359,111,1248

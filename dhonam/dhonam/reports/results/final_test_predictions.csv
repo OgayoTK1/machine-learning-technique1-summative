@@ -1,0 +1,251 @@
+file_name,contributor_id,gold,pred,confidence
+6a09b5a6e8018.wav,2c528070,Poultry farming,Poultry farming,0.9990607684003263
+6a09ba0bc6150.wav,2c528070,Post harvesting technology,Fish farming,0.7587355694179365
+6a0aff95bd385.wav,2c528070,Personal Agricultural day to day experience,Poultry farming,0.2099164414371347
+6a0b0dfeececc.wav,2c528070,Use of machinery and equipment,"Value addition (processing, packaging)",0.23791742904876909
+6a0b0f062a02b.wav,2c528070,Fish farming,Fish farming,0.9585378957975889
+6a0b1235368eb.wav,2c528070,Access to government programs and subsidies,Agricultural education,0.49060591501118944
+6a151faeedc98.wav,2c528070,Economic impact of agricultural practices,Economic impact of agricultural practices,0.48892762356163133
+6a1520aa49951.wav,2c528070,Access to government programs and subsidies,Livestock production and productivity,0.2966112784602223
+6a15232a253fc.wav,2c528070,Storage and Transportation,"Value addition (processing, packaging)",0.38603714486698704
+6a1523983be8c.wav,2c528070,Water Usage and Irrigation Methods,Water Usage and Irrigation Methods,0.563305448246138
+6a152414c06ed.wav,2c528070,Farming Methods and Systems,Contemporary issues in Agriculture,0.6512091863420348
+6a15c2b01d9e3.wav,2c528070,Water and Land Conservation,Water and Land Conservation,0.7109864462691938
+6a15c3ae27cfb.wav,2c528070,Contemporary issues in Agriculture,Animal feeding and nutrition,0.3645412964866421
+6a15c3fa51e4a.wav,2c528070,Contemporary issues in Agriculture,Contemporary issues in Agriculture,0.1861901813839921
+6a181dfbb7031.wav,2c528070,Access to government programs and subsidies,Poultry farming,0.9939353714256859
+6a196a010e3b3.wav,2c528070,Contemporary issues in Agriculture,"Precision agriculture tools (drones, GPS, sensors)",0.5072609858999506
+6a196afbe9ad0.wav,2c528070,Livestock production and productivity,Livestock production and productivity,0.5333218156837549
+6a196c44a570b.wav,2c528070,Livestock production and productivity,Personal Agricultural day to day experience,0.24388892572335974
+6a196d0056d00.wav,2c528070,Poultry farming,Poultry farming,0.9979366068229311
+6a196e09b18d4.wav,2c528070,Climate resilience and adaptation strategies,"Distribution channels (local, regional, international)",0.2741638066537153
+6a196f66319bb.wav,2c528070,Automation and AI in farming,Automation and AI in farming,0.32854803026658336
+6a196ff5983d5.wav,2c528070,Access to government programs and subsidies,Poultry farming,0.9444865984134989
+6a1970ab7b3b1.wav,2c528070,Personal Agricultural day to day experience,Personal Agricultural day to day experience,0.5966835090507144
+6a19a7667ef2c.wav,2c528070,Access to government programs and subsidies,Effect of climate change on Agriculture,0.1714219024041872
+6a19a865d78c0.wav,2c528070,Poultry farming,Poultry farming,0.9168811395591302
+6a19a9ca2dac4.wav,2c528070,Post harvesting technology,"Value addition (processing, packaging)",0.3135647014957743
+6a19aa7a4ebba.wav,2c528070,Climate resilience and adaptation strategies,"Value addition (processing, packaging)",0.2077911746530843
+6a19abe6a7493.wav,2c528070,Access to government programs and subsidies,Contemporary issues in Agriculture,0.21506333907739386
+6a202c935a428.wav,2c528070,Automation and AI in farming,"Precision agriculture tools (drones, GPS, sensors)",0.18687903201414507
+6a202dd1127c4.wav,2c528070,Climate resilience and adaptation strategies,"Value addition (processing, packaging)",0.4286185245366954
+6a202f00f36a9.wav,2c528070,Agricultural education,Agricultural education,0.7141257971910278
+6a203f3829ba8.wav,2c528070,Access to government programs and subsidies,Water Usage and Irrigation Methods,0.3713559066895528
+6a2040dad4a10.wav,2c528070,Personal Agricultural day to day experience,Water and Land Conservation,0.8569033861186051
+6a2041758aa51.wav,2c528070,"Precision agriculture tools (drones, GPS, sensors)",Access to government programs and subsidies,0.25718295091971627
+6a2041e346cbf.wav,2c528070,Climate resilience and adaptation strategies,Post harvesting technology,0.9403813374967889
+6a2043ae4e655.wav,2c528070,Access to government programs and subsidies,Agricultural education,0.22037168146098632
+6a2044969f4f6.wav,2c528070,Access to government programs and subsidies,Poultry farming,0.8991446458851542
+6a204adaa5936.wav,2c528070,Agricultural education,Agricultural education,0.7935417366674637
+6a204d02c4b3f.wav,2c528070,"Precision agriculture tools (drones, GPS, sensors)",Crop Yield and quality,0.8407932465558071
+6a204ed3f2774.wav,2c528070,Land ownership and tenure issues,Storage and Transportation,0.18986579130372272
+6a2070b39162b.wav,2c528070,Post harvesting technology,Post harvesting technology,0.41015757661519386
+6a20801718255.wav,2c528070,Storage and Transportation,"Distribution channels (local, regional, international)",0.1269305357006599
+6a2083cbec544.wav,2c528070,Personal Agricultural day to day experience,Personal Agricultural day to day experience,0.6624396171205134
+6a20853d48435.wav,2c528070,Storage and Transportation,Storage and Transportation,0.26253731135411074
+6a21543ca778b.wav,2c528070,Contemporary issues in Agriculture,"Precision agriculture tools (drones, GPS, sensors)",0.3197275246548711
+6a2155e98dad5.wav,2c528070,Poultry farming,Poultry farming,0.9875983802932606
+6a2158c463a3d.wav,2c528070,Access to government programs and subsidies,Personal Agricultural day to day experience,0.28312213040382467
+6a2159ad3c341.wav,2c528070,"Value addition (processing, packaging)","Distribution channels (local, regional, international)",0.5639749557767292
+6a21639a5b402.wav,2c528070,Personal Agricultural day to day experience,Personal Agricultural day to day experience,0.7310011230637222
+6a2194ee62653.wav,2c528070,Post harvesting technology,"Distribution channels (local, regional, international)",0.22792957137634576
+6a2195dc56741.wav,2c528070,Livestock production and productivity,Livestock production and productivity,0.40434465750290655
+6a2199ecb6226.wav,2c528070,Access to government programs and subsidies,Access to government programs and subsidies,0.1163930197206599
+6a219d666103e.wav,2c528070,Use of machinery and equipment,Use of machinery and equipment,0.6094078275612562
+6a219dd178424.wav,2c528070,Effect of climate change on Agriculture,Effect of climate change on Agriculture,0.41234916892021367
+6a21acd860b4a.wav,2c528070,Contemporary issues in Agriculture,Crop Yield and quality,0.7460546859915347
+6a21ad36f2281.wav,2c528070,Livestock production and productivity,Animal feeding and nutrition,0.23463086421485327
+6a21ae2be5ea1.wav,2c528070,Storage and Transportation,Storage and Transportation,0.6647527169287628
+6a21af1ebfbed.wav,2c528070,Use of machinery and equipment,Use of machinery and equipment,0.39718908054998064
+6a21afb971a21.wav,2c528070,Storage and Transportation,Post harvesting technology,0.8429433927039472
+6a21b08475588.wav,2c528070,"Distribution channels (local, regional, international)",Economic impact of agricultural practices,0.17831214306850834
+6a21b2c0921a4.wav,2c528070,Post harvesting technology,Post harvesting technology,0.3148241067980844
+6a3049c99a530.wav,2c528070,"Precision agriculture tools (drones, GPS, sensors)","Precision agriculture tools (drones, GPS, sensors)",0.5520199755571481
+6a304a9e610d8.wav,2c528070,Storage and Transportation,Fish farming,0.7718298623623691
+6a08c1a4cf695.wav,44583d89,"Precision agriculture tools (drones, GPS, sensors)",Poultry farming,0.2208561089922992
+6a08c1fa634b1.wav,44583d89,Post harvesting technology,Post harvesting technology,0.41322050057473275
+6a08c4ebd451a.wav,44583d89,Land ownership and tenure issues,Animal feeding and nutrition,0.4939091631597569
+6a08c5d9a25e5.wav,44583d89,Poultry farming,Poultry farming,0.9998992224424924
+6a0976d14b76a.wav,44583d89,"Distribution channels (local, regional, international)",Effect of climate change on Agriculture,0.31532845232344614
+6a09775e5c98b.wav,44583d89,Poultry farming,Poultry farming,0.9990280430305164
+6a0acfcf32d3c.wav,44583d89,Livestock production and productivity,Animal feeding and nutrition,0.8042693986875195
+6a0ad0927e9a5.wav,44583d89,Storage and Transportation,Storage and Transportation,0.42754861611589473
+6a0ad1aca8639.wav,44583d89,Animal feeding and nutrition,Livestock production and productivity,0.42245984537653997
+6a0ad235d02b6.wav,44583d89,Use of machinery and equipment,Use of machinery and equipment,0.685754333988092
+6a09c82e589ce.wav,58a66fc4,Animal feeding and nutrition,Animal feeding and nutrition,0.650581249220412
+6a09c91dce937.wav,58a66fc4,Livestock production and productivity,Livestock production and productivity,0.4101831003631597
+6a09cdbdc4fcf.wav,58a66fc4,Post harvesting technology,Water and Land Conservation,0.22385688269227944
+6a09d1548408c.wav,58a66fc4,Agricultural education,Agricultural education,0.6018022955386355
+6a0af39c6db89.wav,58a66fc4,"Distribution channels (local, regional, international)","Distribution channels (local, regional, international)",0.299712979510183
+6a0af6122b35c.wav,58a66fc4,Farming Methods and Systems,Agricultural education,0.20710441793373835
+6a0af716df295.wav,58a66fc4,Fish farming,Fish farming,0.9926366714598537
+6a0af85b8ad9b.wav,58a66fc4,Land ownership and tenure issues,"Distribution channels (local, regional, international)",0.3379922261330583
+6a0af948384f1.wav,58a66fc4,Access to government programs and subsidies,Automation and AI in farming,0.19583890464289938
+6a0afab21c21d.wav,58a66fc4,Poultry farming,Poultry farming,0.9744517511031995
+6a0afc04054a5.wav,58a66fc4,Climate resilience and adaptation strategies,"Precision agriculture tools (drones, GPS, sensors)",0.19700043934916
+6a0c5794bc63e.wav,58a66fc4,Land ownership and tenure issues,Land ownership and tenure issues,0.1710367746208587
+6a0c589acf6f9.wav,58a66fc4,Effect of climate change on Agriculture,Fish farming,0.7861492163809378
+6a0c590380be0.wav,58a66fc4,Use of machinery and equipment,Personal Agricultural day to day experience,0.2978884959622538
+6a0c5af7a116b.wav,58a66fc4,"Precision agriculture tools (drones, GPS, sensors)",Animal feeding and nutrition,0.23449692842931155
+6a0c5b536bb10.wav,58a66fc4,Livestock production and productivity,Livestock production and productivity,0.25340555894428074
+6a0c5c0078a8d.wav,58a66fc4,Personal Agricultural day to day experience,Animal feeding and nutrition,0.3876630080455775
+6a0c5d32750db.wav,58a66fc4,Climate resilience and adaptation strategies,Agricultural education,0.3563911515989213
+6a0c5d8f4450a.wav,58a66fc4,Contemporary issues in Agriculture,Animal feeding and nutrition,0.24001855246183432
+6a0c5f2a7a632.wav,58a66fc4,Livestock production and productivity,Animal feeding and nutrition,0.4442574142322767
+6a0c60aa4c3c2.wav,58a66fc4,Personal Agricultural day to day experience,Water and Land Conservation,0.6930602024888763
+6a0c65d402b8d.wav,58a66fc4,Poultry farming,Poultry farming,0.9991313922971469
+6a0c6634ce6df.wav,58a66fc4,Post harvesting technology,Post harvesting technology,0.7352229760944262
+6a0c66accc043.wav,58a66fc4,Land ownership and tenure issues,Land ownership and tenure issues,0.12047191730017928
+6a0c67039196e.wav,58a66fc4,Economic impact of agricultural practices,Access to government programs and subsidies,0.14617132732033686
+6a0c67a42a468.wav,58a66fc4,Effect of climate change on Agriculture,Poultry farming,0.9946000223384992
+6a0c68283b1e1.wav,58a66fc4,Land ownership and tenure issues,Land ownership and tenure issues,0.3937341103731977
+6a0c68ef838d8.wav,58a66fc4,Climate resilience and adaptation strategies,Climate resilience and adaptation strategies,0.592961887090023
+6a0c6941ecf9e.wav,58a66fc4,"Value addition (processing, packaging)","Distribution channels (local, regional, international)",0.525503556880916
+6a0c6a46d166d.wav,58a66fc4,Personal Agricultural day to day experience,Water and Land Conservation,0.14286243843271076
+6a0c6aa8a4607.wav,58a66fc4,Water Usage and Irrigation Methods,Water Usage and Irrigation Methods,0.468989837988496
+6a0c6b0e37e42.wav,58a66fc4,Farming Methods and Systems,Agricultural education,0.22223296375509635
+6a0c6b6889ab0.wav,58a66fc4,Crop Yield and quality,"Distribution channels (local, regional, international)",0.5126873152494986
+6a0c6bf6891ca.wav,58a66fc4,Contemporary issues in Agriculture,Contemporary issues in Agriculture,0.2441336722412512
+6a0c6c98c7e89.wav,58a66fc4,Contemporary issues in Agriculture,Water and Land Conservation,0.19404412357177717
+6a0c6d3285911.wav,58a66fc4,Farming Methods and Systems,Economic impact of agricultural practices,0.6651983509696082
+6a0c6db2be23e.wav,58a66fc4,"Precision agriculture tools (drones, GPS, sensors)","Precision agriculture tools (drones, GPS, sensors)",0.2783250142446851
+6a0c6f1070bb1.wav,58a66fc4,Water Usage and Irrigation Methods,Farming Methods and Systems,0.2574355401931987
+6a0c71183ea22.wav,58a66fc4,Access to government programs and subsidies,Use of machinery and equipment,0.20651261268262078
+6a0c714fb8138.wav,58a66fc4,Personal Agricultural day to day experience,Water and Land Conservation,0.22081602006569198
+6a0c71a69f7c1.wav,58a66fc4,"Distribution channels (local, regional, international)","Distribution channels (local, regional, international)",0.8632368869238037
+6a0c726cd2434.wav,58a66fc4,Livestock production and productivity,Livestock production and productivity,0.5712481230654726
+6a0c733879989.wav,58a66fc4,Agricultural education,Agricultural education,0.3327043997985052
+6a0c73f68788c.wav,58a66fc4,Economic impact of agricultural practices,"Distribution channels (local, regional, international)",0.307842376145115
+6a0c74532aa32.wav,58a66fc4,Animal feeding and nutrition,Storage and Transportation,0.2746100371517182
+6a0c75c612151.wav,58a66fc4,"Distribution channels (local, regional, international)","Distribution channels (local, regional, international)",0.3588185860885777
+6a0c75fc89e47.wav,58a66fc4,Post harvesting technology,Post harvesting technology,0.35438376592979953
+6a0c7627ce401.wav,58a66fc4,Poultry farming,Poultry farming,0.992437751144755
+6a0c76c4c24ee.wav,58a66fc4,"Distribution channels (local, regional, international)",Climate resilience and adaptation strategies,0.39274167936168775
+6a0c76fe23b85.wav,58a66fc4,"Precision agriculture tools (drones, GPS, sensors)","Precision agriculture tools (drones, GPS, sensors)",0.3966860503155415
+6a0c774694b83.wav,58a66fc4,Post harvesting technology,Post harvesting technology,0.9837023358667994
+6a0c77b2a6ec0.wav,58a66fc4,Livestock production and productivity,Livestock production and productivity,0.3636992256845649
+6a0c7827efa8b.wav,58a66fc4,Poultry farming,Poultry farming,0.9952717498832652
+6a0c78be3fb1c.wav,58a66fc4,"Precision agriculture tools (drones, GPS, sensors)",Effect of climate change on Agriculture,0.19399455209148964
+6a0daac797586.wav,58a66fc4,Climate resilience and adaptation strategies,Use of machinery and equipment,0.31214807660823946
+6a0dab4a8f90c.wav,58a66fc4,Water and Land Conservation,Water and Land Conservation,0.8905883122462633
+6a0dabd482605.wav,58a66fc4,Personal Agricultural day to day experience,Personal Agricultural day to day experience,0.26687743076444054
+6a0dac18a2767.wav,58a66fc4,Post harvesting technology,Storage and Transportation,0.23320743977834307
+6a0dacb4e5e11.wav,58a66fc4,"Precision agriculture tools (drones, GPS, sensors)",Automation and AI in farming,0.192411625903527
+6a0dace4d67c9.wav,58a66fc4,"Value addition (processing, packaging)",Economic impact of agricultural practices,0.13352505723642766
+6a0dadea91677.wav,58a66fc4,Effect of climate change on Agriculture,Effect of climate change on Agriculture,0.26816970129744916
+6a0dae803b349.wav,58a66fc4,Effect of climate change on Agriculture,Agricultural education,0.82573705600025
+6a0dafb7ba4b2.wav,58a66fc4,Fish farming,Fish farming,0.9989055320407088
+6a0db0384248c.wav,58a66fc4,Animal feeding and nutrition,Animal feeding and nutrition,0.6842171470736496
+6a0db17c4ee88.wav,58a66fc4,Farming Methods and Systems,Poultry farming,0.39777692422331085
+6a15ed1034e40.wav,58a66fc4,Use of machinery and equipment,Fish farming,0.1496073589616931
+6a15eda803a07.wav,58a66fc4,Water Usage and Irrigation Methods,Crop Yield and quality,0.4804704843029845
+6a15edf20788e.wav,58a66fc4,Access to government programs and subsidies,Access to government programs and subsidies,0.6814705932427303
+6a15ee402d8ce.wav,58a66fc4,Use of machinery and equipment,Animal feeding and nutrition,0.41765617278894906
+6a15eecc2efe4.wav,58a66fc4,Climate resilience and adaptation strategies,Effect of climate change on Agriculture,0.34347561047692565
+6a15efc971f1a.wav,58a66fc4,Storage and Transportation,"Distribution channels (local, regional, international)",0.8405207020466199
+6a1fd418ef697.wav,5971d88c,Animal feeding and nutrition,Animal feeding and nutrition,0.32412036484996226
+6a1fd858b8f53.wav,5971d88c,Personal Agricultural day to day experience,Effect of climate change on Agriculture,0.290781573872144
+6a1fd8997f639.wav,5971d88c,Livestock production and productivity,Climate resilience and adaptation strategies,0.17761664222014148
+6a1fda2d10192.wav,5971d88c,Effect of climate change on Agriculture,Poultry farming,0.1761164617029171
+6a1fda8db2c23.wav,5971d88c,Fish farming,Fish farming,0.9931397811658003
+6a2329884e811.wav,5971d88c,"Distribution channels (local, regional, international)",Access to government programs and subsidies,0.759237242784927
+6a2329e46623f.wav,5971d88c,"Value addition (processing, packaging)","Distribution channels (local, regional, international)",0.7725312988551453
+6a232a09683bc.wav,5971d88c,"Distribution channels (local, regional, international)","Distribution channels (local, regional, international)",0.9686705380793053
+6a232a3951a23.wav,5971d88c,Economic impact of agricultural practices,"Distribution channels (local, regional, international)",0.5201272160555582
+6a232a982de40.wav,5971d88c,Fish farming,Access to government programs and subsidies,0.18542447539528215
+6a232ac888e27.wav,5971d88c,Contemporary issues in Agriculture,Economic impact of agricultural practices,0.4122866466752402
+6a232b2249074.wav,5971d88c,Storage and Transportation,"Value addition (processing, packaging)",0.381648850976144
+6a232bb8a83e0.wav,5971d88c,"Distribution channels (local, regional, international)","Distribution channels (local, regional, international)",0.8813622434116011
+6a232c28b4937.wav,5971d88c,Storage and Transportation,Storage and Transportation,0.17553005917602396
+6a232c597abd3.wav,5971d88c,Farming Methods and Systems,Land ownership and tenure issues,0.13705026190860087
+6a2340367a606.wav,5971d88c,Economic impact of agricultural practices,Economic impact of agricultural practices,0.7310796576998135
+6a2340bb3abab.wav,5971d88c,Climate resilience and adaptation strategies,"Precision agriculture tools (drones, GPS, sensors)",0.22258142480591184
+6a27ef62b38ef.wav,5971d88c,Livestock production and productivity,Livestock production and productivity,0.3077566527851616
+6a27f031b213e.wav,5971d88c,Poultry farming,Poultry farming,0.9995024967316704
+6a27f06d6f9a5.wav,5971d88c,"Precision agriculture tools (drones, GPS, sensors)",Fish farming,0.34777697061567786
+6a27f09cb3e3e.wav,5971d88c,Access to government programs and subsidies,Water and Land Conservation,0.2780127825832303
+6a27f0cc5eeb2.wav,5971d88c,Contemporary issues in Agriculture,Post harvesting technology,0.4406875796447457
+6a27f1101c27a.wav,5971d88c,Use of machinery and equipment,Use of machinery and equipment,0.44152142078321055
+6a27f1618e5c6.wav,5971d88c,Fish farming,Fish farming,0.9884751240747134
+6a27f1a13645d.wav,5971d88c,Economic impact of agricultural practices,Use of machinery and equipment,0.612315623501019
+6a27f1dfd8997.wav,5971d88c,Animal feeding and nutrition,Animal feeding and nutrition,0.6094710838366393
+6a27f20f6c4a5.wav,5971d88c,Personal Agricultural day to day experience,Economic impact of agricultural practices,0.27502218599507144
+6a27f23f2e84f.wav,5971d88c,"Value addition (processing, packaging)","Distribution channels (local, regional, international)",0.8866469804722458
+6a27f284cb80a.wav,5971d88c,Animal feeding and nutrition,Animal feeding and nutrition,0.2970153579648314
+6a27f2c459df9.wav,5971d88c,"Precision agriculture tools (drones, GPS, sensors)","Distribution channels (local, regional, international)",0.15991207211691605
+6a27f2fbea3c8.wav,5971d88c,Animal feeding and nutrition,Animal feeding and nutrition,0.4720278913940636
+6a27f345c9ada.wav,5971d88c,Effect of climate change on Agriculture,Land ownership and tenure issues,0.46989623070738146
+6a27f37ae9346.wav,5971d88c,Post harvesting technology,Use of machinery and equipment,0.6585408317918642
+6a27f3a077978.wav,5971d88c,Access to government programs and subsidies,Crop Yield and quality,0.27922148515059103
+6a27f3c71e89d.wav,5971d88c,Use of machinery and equipment,Use of machinery and equipment,0.2725677270038152
+6a27f42456572.wav,5971d88c,Animal feeding and nutrition,Animal feeding and nutrition,0.9043968109156093
+6a27f44a1e4f7.wav,5971d88c,Livestock production and productivity,Post harvesting technology,0.14921049647588847
+6a27f482c5aaa.wav,5971d88c,Automation and AI in farming,Automation and AI in farming,0.3706622710176242
+6a27f716add80.wav,5971d88c,Effect of climate change on Agriculture,Effect of climate change on Agriculture,0.8017765441530185
+6a27f77fbbce5.wav,5971d88c,Personal Agricultural day to day experience,Personal Agricultural day to day experience,0.30696150948371115
+6a27f7b8ab00c.wav,5971d88c,Storage and Transportation,Post harvesting technology,0.3369569398114512
+6a27f7e2a1bf8.wav,5971d88c,Personal Agricultural day to day experience,Economic impact of agricultural practices,0.2930120234143235
+6a27f86690860.wav,5971d88c,Water and Land Conservation,Crop Yield and quality,0.152788535934691
+6a27f8e2d2b04.wav,5971d88c,Use of machinery and equipment,Use of machinery and equipment,0.7533808290965175
+6a27fc36dae2b.wav,5971d88c,Storage and Transportation,Post harvesting technology,0.6361853287335075
+6a27fd1e6b693.wav,5971d88c,"Distribution channels (local, regional, international)","Value addition (processing, packaging)",0.30226818951808054
+6a27fdfe665f1.wav,5971d88c,Farming Methods and Systems,Water Usage and Irrigation Methods,0.1442282385223615
+6a27fe4b7fa79.wav,5971d88c,Farming Methods and Systems,Automation and AI in farming,0.298809710631265
+6a27feedb1fa7.wav,5971d88c,"Value addition (processing, packaging)","Value addition (processing, packaging)",0.591112801507739
+6a27ff18437ed.wav,5971d88c,Contemporary issues in Agriculture,Crop Yield and quality,0.35826860988743775
+6a27ff7facc3c.wav,5971d88c,Fish farming,Fish farming,0.9983659311059258
+6a27ffbb4e527.wav,5971d88c,"Value addition (processing, packaging)",Use of machinery and equipment,0.259419747113282
+6a27fff1517bf.wav,5971d88c,"Distribution channels (local, regional, international)",Automation and AI in farming,0.6346511009531953
+6a28001463e1c.wav,5971d88c,Animal feeding and nutrition,Animal feeding and nutrition,0.5359693994246539
+6a280041baa5f.wav,5971d88c,Land ownership and tenure issues,Land ownership and tenure issues,0.5356611222961991
+6a0d46d5cfb52.wav,d3a663cb,Fish farming,Fish farming,0.9981650662915177
+6a0d46f576f1c.wav,d3a663cb,Automation and AI in farming,Use of machinery and equipment,0.6476417580688167
+6a0d47c456724.wav,d3a663cb,Poultry farming,Poultry farming,0.9998081798213863
+6a0dfe8a2030c.wav,d3a663cb,Access to government programs and subsidies,Agricultural education,0.5497459484128986
+6a0dff9118012.wav,d3a663cb,Water Usage and Irrigation Methods,Fish farming,0.8212609637544207
+6a0eb68c5332f.wav,d3a663cb,Water Usage and Irrigation Methods,Water Usage and Irrigation Methods,0.5800850341055613
+6a0eb6c6c5153.wav,d3a663cb,Effect of climate change on Agriculture,Effect of climate change on Agriculture,0.5948294951944505
+6a0eb78fb0b72.wav,d3a663cb,Agricultural education,Agricultural education,0.2808003823584365
+6a0eb8464e597.wav,d3a663cb,Water and Land Conservation,Water and Land Conservation,0.16861903248206847
+6a0eb907e244b.wav,d3a663cb,Poultry farming,Poultry farming,0.9990211185380582
+6a0eb98b0ddca.wav,d3a663cb,Poultry farming,Poultry farming,0.9995484000660041
+6a15616b0b1b1.wav,d3a663cb,Economic impact of agricultural practices,Economic impact of agricultural practices,0.7924710478230327
+6a202d1e81ba3.wav,d3a663cb,Animal feeding and nutrition,Animal feeding and nutrition,0.4490517293128115
+6a202ddb7c88f.wav,d3a663cb,Crop Yield and quality,Crop Yield and quality,0.17308739139098553
+6a202e303ff20.wav,d3a663cb,Storage and Transportation,Post harvesting technology,0.9830117792541567
+6a21a773a8648.wav,d3a663cb,Storage and Transportation,"Value addition (processing, packaging)",0.593180741453421
+6a21a972535a7.wav,d3a663cb,Farming Methods and Systems,Poultry farming,0.9997935079755188
+6a230a2a8f64d.wav,d3a663cb,Storage and Transportation,Land ownership and tenure issues,0.3421816949463506
+6a230ac6c3d16.wav,d3a663cb,"Precision agriculture tools (drones, GPS, sensors)",Use of machinery and equipment,0.5596268052337959
+6a230bab9b872.wav,d3a663cb,Crop Yield and quality,Crop Yield and quality,0.1747144395784371
+6a230be366e07.wav,d3a663cb,Automation and AI in farming,Use of machinery and equipment,0.5144427817687388
+6a232a573cd71.wav,d3a663cb,Economic impact of agricultural practices,"Distribution channels (local, regional, international)",0.8582495354935323
+6a232af501b46.wav,d3a663cb,Contemporary issues in Agriculture,Farming Methods and Systems,0.14992751278718627
+6a232b8b3b631.wav,d3a663cb,Fish farming,Fish farming,0.5501804033581014
+6a232bb0c392d.wav,d3a663cb,Water Usage and Irrigation Methods,Water Usage and Irrigation Methods,0.7645917389565641
+6a232c80ad9a9.wav,d3a663cb,Farming Methods and Systems,"Distribution channels (local, regional, international)",0.18934473923614864
+6a232d899d381.wav,d3a663cb,Fish farming,Fish farming,0.9987071573550101
+6a232e5f3e663.wav,d3a663cb,Land ownership and tenure issues,Effect of climate change on Agriculture,0.21360115091199075
+6a232ee0225e2.wav,d3a663cb,Fish farming,Fish farming,0.998986834122198
+6a232f83a7e35.wav,d3a663cb,Land ownership and tenure issues,Land ownership and tenure issues,0.1890030215582792
+6a232fb221a8b.wav,d3a663cb,Livestock production and productivity,Livestock production and productivity,0.44629361292175235
+6a2330b16bb67.wav,d3a663cb,Post harvesting technology,Post harvesting technology,0.9688300654459525
+6a2330d4514e1.wav,d3a663cb,Animal feeding and nutrition,Animal feeding and nutrition,0.6075961438692793
+6a2331247aee6.wav,d3a663cb,Land ownership and tenure issues,Economic impact of agricultural practices,0.15664498483921985
+6a233197db42f.wav,d3a663cb,Automation and AI in farming,"Distribution channels (local, regional, international)",0.5078940631335598
+6a233206cdbeb.wav,d3a663cb,Poultry farming,Poultry farming,0.9984165290802541
+6a2332703cf6b.wav,d3a663cb,Agricultural education,Agricultural education,0.8617904417517128
+6a2332b88f8d4.wav,d3a663cb,Contemporary issues in Agriculture,Economic impact of agricultural practices,0.19452564125110108
+6a2332db4e2c2.wav,d3a663cb,Automation and AI in farming,Automation and AI in farming,0.2509902187513655
+6a233302274b3.wav,d3a663cb,Farming Methods and Systems,Storage and Transportation,0.43308273046001844
+6a23336350bd1.wav,d3a663cb,Crop Yield and quality,Agricultural education,0.18376466236160618
+6a23347aebe29.wav,d3a663cb,Farming Methods and Systems,Water Usage and Irrigation Methods,0.7502591796763264
+6a2334b276825.wav,d3a663cb,Automation and AI in farming,Economic impact of agricultural practices,0.34505419935379333
+6a233561a77a4.wav,d3a663cb,Animal feeding and nutrition,Animal feeding and nutrition,0.3733399439610222
+6a23358983bf2.wav,d3a663cb,Effect of climate change on Agriculture,Climate resilience and adaptation strategies,0.35279943964181215
+6a2335aa3a48f.wav,d3a663cb,Post harvesting technology,Post harvesting technology,0.992675608327806
+6a2335c3b6311.wav,d3a663cb,Climate resilience and adaptation strategies,Storage and Transportation,0.8029398874944995
+6a23364cc1793.wav,d3a663cb,Access to government programs and subsidies,Agricultural education,0.1971845438681313
+6a233f5e6f0e3.wav,d3a663cb,Agricultural education,Agricultural education,0.8076877865573772
+6a2342a0bba88.wav,d3a663cb,Access to government programs and subsidies,Agricultural education,0.9166234749805793
+6a2342c9a6a2c.wav,d3a663cb,Economic impact of agricultural practices,"Distribution channels (local, regional, international)",0.3086437290971712

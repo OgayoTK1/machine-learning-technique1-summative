@@ -1,0 +1,5 @@
+system,uses Dholuo training data,val_macro_f1,test_macro_f1,test_95ci,test_acc
+nllb+zeroshot_bart,False,0.2438,0.1814,"[0.133, 0.219]",0.224
+nllb+tfidf_lr,True,0.4232,0.3183,"[0.260, 0.363]",0.364
+svm_wordchar,True,0.4324,0.4129,"[0.345, 0.459]",0.448
+lr_word,True,0.4271,0.3957,"[0.329, 0.442]",0.424

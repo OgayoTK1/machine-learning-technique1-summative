@@ -1,0 +1,86 @@
+{
+  "leakage": {
+    "speaker_overlap_train_test": 0,
+    "speaker_overlap_train_val": 0,
+    "speaker_overlap_val_test": 0,
+    "test_rows_whose_prompt_appears_in_train": 101,
+    "test_rows_total": 250,
+    "exact_transcript_overlap_test_train": 0,
+    "test_rows_with_char_cosine_gt_0.9_to_a_train_row": 0,
+    "classes_missing_in_val": [],
+    "classes_missing_in_test": [],
+    "dialects_in_test": [
+      "Milambo",
+      "Nyanduat"
+    ]
+  },
+  "test_speakers": [
+    "2c528070",
+    "44583d89",
+    "58a66fc4",
+    "5971d88c",
+    "d3a663cb"
+  ],
+  "val_speakers": [
+    "1682355b",
+    "25110697",
+    "54eb4538",
+    "89f0a13b",
+    "dcbf6f84"
+  ],
+  "split_search": {
+    "test": {
+      "jsd": 0.0044,
+      "rows": 250,
+      "missing_classes": 0,
+      "dialects": [
+        "Milambo",
+        "Nyanduat"
+      ]
+    },
+    "val": {
+      "jsd": 0.0075,
+      "rows": 188,
+      "missing_classes": 0,
+      "dialects": [
+        "Milambo",
+        "Nyanduat"
+      ]
+    }
+  },
+  "split_summary": [
+    {
+      "split": "train",
+      "rows": 810,
+      "speakers": 13,
+      "classes_present": 23,
+      "Nyanduat_spk": 10,
+      "Milambo_spk": 3,
+      "female_spk": 6,
+      "cs_rows": 113,
+      "mean_words": 52.0
+    },
+    {
+      "split": "val",
+      "rows": 188,
+      "speakers": 5,
+      "classes_present": 23,
+      "Nyanduat_spk": 2,
+      "Milambo_spk": 3,
+      "female_spk": 2,
+      "cs_rows": 38,
+      "mean_words": 79.6
+    },
+    {
+      "split": "test",
+      "rows": 250,
+      "speakers": 5,
+      "classes_present": 23,
+      "Nyanduat_spk": 2,
+      "Milambo_spk": 3,
+      "female_spk": 3,
+      "cs_rows": 52,
+      "mean_words": 70.9
+    }
+  ]
+}

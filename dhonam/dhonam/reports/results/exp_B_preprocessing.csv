@@ -1,0 +1,7 @@
+model,variant,runs,val_f1,val_sd,test_f1,test_sd
+bilstm,minimal,3,0.3032,0.0324,0.3074,0.0154
+bilstm,normalized,3,0.3374,0.0266,0.3066,0.0218
+bilstm,normalized_notags,3,0.3284,0.0154,0.3199,0.0242
+lr_word,minimal,1,0.4244,,0.3918,
+lr_word,normalized,1,0.4271,,0.3957,
+lr_word,normalized_notags,1,0.423,,0.3911,

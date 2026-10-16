@@ -1,0 +1,5 @@
+model,class_weighting,val_f1,test_f1,test_sd,test_macro_r,test_acc
+bilstm,False,0.3277,0.2972,0.028,0.3087,0.332
+bilstm,True,0.3374,0.3066,0.0218,0.3328,0.3387
+lr_word,False,0.3708,0.3809,0.0,0.4001,0.424
+lr_word,True,0.4271,0.3957,0.0,0.424,0.424

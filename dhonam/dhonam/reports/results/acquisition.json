@@ -1,0 +1,11 @@
+{
+  "dataset": "MCAA1-MSU/twb_luo_ke",
+  "revision": "5cbcd61d844e29e80e5e574fa14a7c54603052c3",
+  "sources": {
+    "ff_tx": "csv:utavu-freeform_prompts_data/Files/transcripts.csv",
+    "ff_meta": "csv:utavu-freeform_prompts_data/Files/meta.csv",
+    "img_tx": "csv:utavu-image_prompts_data/Files/transcripts.csv",
+    "img_meta": "csv:utavu-image_prompts_data/Files/meta.csv"
+  },
+  "n_repo_files": 21
+}

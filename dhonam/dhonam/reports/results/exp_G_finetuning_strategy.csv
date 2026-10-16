@@ -1,0 +1,4 @@
+model,val_f1,val_f1_sd,test_f1,test_f1_sd,trainable_params,train_time_s,peak_gpu_gb,runs
+frozen_afroxlmr_large_114L,0.2904,,0.2273,,23575.0,58.9,,1
+full_afroxlmr_large_114L,0.3604,0.014,0.4041,0.0199,303911959.0,577.1667,7.15,3
+lora_afroxlmr_large_114L,0.4301,0.0177,0.4155,0.0051,2646039.0,346.0333,4.51,3
