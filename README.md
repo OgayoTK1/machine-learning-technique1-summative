@@ -6,6 +6,16 @@ DhoNam assigns a transcribed, spontaneously spoken Dholuo answer about farming t
 
 The full technical report is in [`reports/final_report.md`](reports/final_report.md) (PDF: [`reports/final_report.pdf`](reports/final_report.pdf)); it is being updated to the latest training run after deployment testing. Every number in this README comes from the latest executed notebook [`notebooks/dholuo_topic_classification_final.ipynb`](notebooks/dholuo_topic_classification_final.ipynb).
 
+## Project links
+
+| | |
+|---|---|
+| Live application | [https://machine-learning-technique1-summative-6lhzhgn9tuwa7wuhtrdjcf.streamlit.app/](https://machine-learning-technique1-summative-6lhzhgn9tuwa7wuhtrdjcf.streamlit.app/) |
+| GitHub repository | [https://github.com/OgayoTK1/machine-learning-technique1-summative](https://github.com/OgayoTK1/machine-learning-technique1-summative) |
+| Technical report | [`reports/final_report.pdf`](reports/final_report.pdf) |
+| Notebook (all experiments) | [`notebooks/dholuo_topic_classification_final.ipynb`](notebooks/dholuo_topic_classification_final.ipynb) |
+| Demonstration video | Link added after recording |
+
 ---
 
 ## 1. Overview and motivation
@@ -104,7 +114,7 @@ dhonam/
 │   └── calibrate_temperature.py   fits a validation temperature and records it in label_map.json
 ├── models/
 │   ├── README.md                  how to obtain and place the trained model
-│   └── final/                     exported model (git-ignored by default; see models/README.md)
+│   └── final/                     exported SVM model used by the app
 ├── notebooks/
 │   └── dholuo_topic_classification_final.ipynb   executed notebook (source of all results)
 ├── reports/
@@ -113,19 +123,25 @@ dhonam/
 │   ├── REPORT_TABLES.md           result tables exported by the notebook
 │   ├── results/                   result CSV/JSON files exported by the notebook (no transcript text)
 │   └── figures/                   figures exported by the notebook
+├── configs/
+│   └── config_resolved.json       exact configuration of the reported run
+├── data/
+│   └── README.md                  how to obtain the gated dataset (no data included)
 ├── tests/                         pytest suite (preprocessing, prediction, app, calibration)
 ├── requirements.txt
 ├── requirements-dev.txt
 ├── pytest.ini
+├── LICENSE                        MIT, for the code only
 └── .gitignore
 ```
 
 ## 9. Prerequisites and installation
 
-Python 3.10 or newer (developed and tested with Python 3.13).
+Python 3.10 to 3.13 (the model needs scikit-learn 1.6.1, which has no packages for Python 3.14). Developed with 3.13; deployed on Streamlit Community Cloud with Python 3.12.
 
 ```bash
-cd dhonam
+git clone https://github.com/OgayoTK1/machine-learning-technique1-summative.git
+cd machine-learning-technique1-summative
 python -m venv .venv
 source .venv/bin/activate            # Windows: .venv\Scripts\activate
 pip install -r requirements.txt      # add requirements-dev.txt for tests and calibration
@@ -159,7 +175,36 @@ The tests need no data or trained model: they build small stand-in pipelines wit
 ## 12. Model and dataset setup
 
 * **Model:** follow [`models/README.md`](models/README.md) to place `models/final/` (exported by notebook section 17). The exported SVM already carries its validation-fitted temperature, so no calibration step is needed.
-* **Dataset (only to reproduce training):** request access to `MCAA1-MSU/twb_luo_ke` on Hugging Face, create a read token, and add it as the secret `HF_TOKEN` (Kaggle or Colab). Run the notebook with a GPU T4 and internet enabled; the full run took about 174 minutes.
+* **Dataset (only to reproduce training):** see [`data/README.md`](data/README.md).
+
+### Reproducing the experiments
+
+All preprocessing, training, evaluation and export run in one notebook, in order:
+
+| Stage | Notebook sections | Output |
+|---|---|---|
+| Data acquisition and audit | 2, 3 | `results/audit.json`, `results/data_provenance.json` |
+| Cleaning, normalisation, speaker-disjoint split | 5, 6 | `results/cleaning_log.csv`, `results/splits.csv` |
+| Training: TF-IDF baselines, BiLSTM, transformers | 9, 10, 11 | `results/all_runs.csv` |
+| Model selection and test evaluation | 12, 13 | `results/exp_C_model_family.csv`, `results/final_per_class.csv` |
+| Experiments A to I and ablation | 14 | `results/exp_*.csv` |
+| Qualitative and error analysis | 15, 16 | `results/error_flags.csv`, `results/confusion_pairs.csv` |
+| Export of the deployed model | 17 | `models/final/` |
+
+1. Open `notebooks/dholuo_topic_classification_final.ipynb` on Kaggle or Colab with a T4 GPU and internet enabled, and add the `HF_TOKEN` secret.
+2. Keep `RUN_PROFILE = "full"` in section 1 (the settings are recorded in [`configs/config_resolved.json`](configs/config_resolved.json)); seeds are fixed for Python, NumPy and PyTorch.
+3. Run all cells. The full run took about 174 minutes; `RUN_PROFILE = "fast"` gives a shorter single-seed check.
+4. Copy `models/final/` from the notebook output into this repository to serve the newly trained model.
+
+Inference outside the app:
+
+```bash
+python models/final/predict.py "Jopith rech tiyo gi yawo mondo rech odongi maber"
+```
+
+### Deployment
+
+The app is deployed on Streamlit Community Cloud from this repository (branch `main`, main file `app.py`, Python 3.12). Streamlit installs `requirements.txt` and the app loads `models/final/` at start-up. The deployed model is the evaluated run `main|svm_wordchar|normalized|0`.
 
 ## 13. Limitations, ethics and responsible use
 
@@ -172,7 +217,25 @@ The tests need no data or trained model: they build small stand-in pipelines wit
 * **Privacy and licence.** Only text and pseudonymous IDs are used; no transcripts or audio are published. Follow NOODL-1.0 and the dataset's access conditions, including before sharing the trained model.
 * **Use.** A low-stakes routing or search aid with a person checking the result. Not for decisions about people, such as eligibility for subsidies, credit or programmes.
 
-## 14. Acknowledgements and references
+## 14. External resources and original work
+
+**External resources used (not my work):**
+
+| Resource | Use in this project |
+|---|---|
+| Utavu Foundation Dholuo Speech Dataset (`MCAA1-MSU/twb_luo_ke`, NOODL-1.0) | All transcripts, labels and speaker metadata |
+| `Davlan/afro-xlmr-large-114L` (Alabi et al., 2022) | Pretrained encoder for full fine-tuning, LoRA and the frozen-encoder model |
+| `FacebookAI/xlm-roberta-large` (Conneau et al., 2020) | Pretrained encoder for the comparison without African adaptation |
+| NLLB-200 600M distilled (NLLB Team, 2022) | Dholuo-to-English translation in Experiment I and the qualitative section |
+| BART-large-MNLI | English zero-shot classifier in Experiment I |
+| LoRA method (Hu et al., 2022) via the `peft` library | Parameter-efficient fine-tuning |
+| scikit-learn, PyTorch, Hugging Face `transformers`, `datasets` and `huggingface_hub`, pandas, NumPy, SciPy, matplotlib | Modelling, evaluation and plotting |
+| Streamlit and Streamlit Community Cloud | Web application and hosting |
+| Temperature scaling (Guo et al., 2017) | Calibrating the SVM's confidences |
+
+**My original work:** the task definition and label-eligibility rule; the data audit and provenance record; the text normalisation; the constrained speaker-disjoint split search; the BiLSTM-with-attention implementation; the plain-PyTorch fine-tuning loop with collapse detection and out-of-memory retry; the evaluation code (bootstrap intervals over rows and speakers, paired bootstrap, Wilson intervals, error flags and relative risk, occlusion explanations); experiments A to I and the class-weighting ablation, including the prompt-overlap analysis; model selection; the inference package in `src/`; the Streamlit app; the tests; and this documentation.
+
+## 15. Acknowledgements and references
 
 The Dholuo speakers who recorded, transcribed and reviewed the data, and the Utavu Foundation, CLEAR Global and the Maseno Centre for Applied AI, who created and steward the dataset.
 

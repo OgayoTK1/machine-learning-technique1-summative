@@ -1,6 +1,6 @@
 # Model artifacts
 
-The trained model is **not committed by default** (`models/final/` is in `.gitignore`). It was trained on the gated Utavu Foundation Dholuo Speech Dataset, and its TF-IDF vocabulary is derived directly from the dataset's transcripts, so treat it under the same access conditions as the data (see "Sharing" below).
+The trained model is committed in `models/final/` so that the deployed app can load it. It was trained on the gated Utavu Foundation Dholuo Speech Dataset, and its TF-IDF vocabulary is derived directly from the dataset's transcripts, so treat it under the same access conditions as the data (see "Sharing" below).
 
 ## What the app expects
 
