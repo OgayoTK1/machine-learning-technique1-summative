@@ -4,7 +4,7 @@ DhoNam assigns a transcribed, spontaneously spoken Dholuo answer about farming t
 
 > **What the model predicts.** The labels in the dataset belong to the *question* each speaker was asked, not to an independent annotation of the *answer*. The model therefore predicts the agricultural sub-domain that the dataset associates with a transcript's question. It does not establish the objectively correct topic of what was said, and some answers legitimately touch other topics (see [Limitations](#13-limitations-ethics-and-responsible-use)).
 
-The full technical report is in [`reports/final_report.md`](reports/final_report.md) (PDF: [`reports/final_report(1).pdf`](reports/final_report.pdf)); it is being updated to the latest training run after deployment testing. Every number in this README comes from the latest executed notebook [`notebooks/dholuo_topic_classification_final.ipynb`](notebooks/dholuo_topic_classification_final.ipynb).
+The full technical report is in [`reports/final_report.md`](reports/final_report.md) (PDF: [`reports/final_report.pdf`](reports/final_report.pdf)); it is being updated to the latest training run after deployment testing. Every number in this README comes from the latest executed notebook [`notebooks/dholuo_topic_classification_final.ipynb`](notebooks/dholuo_topic_classification_final.ipynb).
 
 ## Project links
 
@@ -12,9 +12,9 @@ The full technical report is in [`reports/final_report.md`](reports/final_report
 |---|---|
 | Live application | [https://machine-learning-technique1-summative-6lhzhgn9tuwa7wuhtrdjcf.streamlit.app/](https://machine-learning-technique1-summative-6lhzhgn9tuwa7wuhtrdjcf.streamlit.app/) |
 | GitHub repository | [https://github.com/OgayoTK1/machine-learning-technique1-summative](https://github.com/OgayoTK1/machine-learning-technique1-summative) |
-| Technical report | [`reports/final_report(1).pdf`](reports/final_report(1).pdf) |
+| Technical report | [`reports/final_report.pdf`](reports/final_report.pdf) |
 | Notebook (all experiments) | [`notebooks/dholuo_topic_classification_final.ipynb`](notebooks/dholuo_topic_classification_final.ipynb) |
-| Demonstration video | https://www.youtube.com/watch?v=Fs2sN2lSI-w |
+| Demonstration video | [https://www.youtube.com/watch?v=Fs2sN2lSI-w](https://www.youtube.com/watch?v=Fs2sN2lSI-w) |
 
 ---
 
@@ -193,7 +193,7 @@ All preprocessing, training, evaluation and export run in one notebook, in order
 
 1. Open `notebooks/dholuo_topic_classification_final.ipynb` on Kaggle or Colab with a T4 GPU and internet enabled, and add the `HF_TOKEN` secret.
 2. Keep `RUN_PROFILE = "full"` in section 1 (the settings are recorded in [`configs/config_resolved.json`](configs/config_resolved.json)); seeds are fixed for Python, NumPy and PyTorch.
-3. Run all cells. The full run took about 174 minutes; `RUN_PROFILE = "fast"` gives a shorter single-seed check.
+3. Run all cells. The full run took about 166 minutes; `RUN_PROFILE = "fast"` gives a shorter single-seed check.
 4. Copy `models/final/` from the notebook output into this repository to serve the newly trained model.
 
 Inference outside the app:
