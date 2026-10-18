@@ -4,7 +4,7 @@ DhoNam assigns a transcribed, spontaneously spoken Dholuo answer about farming t
 
 > **What the model predicts.** The labels in the dataset belong to the *question* each speaker was asked, not to an independent annotation of the *answer*. The model therefore predicts the agricultural sub-domain that the dataset associates with a transcript's question. It does not establish the objectively correct topic of what was said, and some answers legitimately touch other topics (see [Limitations](#13-limitations-ethics-and-responsible-use)).
 
-The full technical report is in [`reports/final_report.md`](reports/final_report.md) (PDF: [`reports/final_report.pdf`](reports/final_report.pdf)); it is being updated to the latest training run after deployment testing. Every number in this README comes from the latest executed notebook [`notebooks/dholuo_topic_classification_final.ipynb`](notebooks/dholuo_topic_classification_final.ipynb).
+The full technical report is in [`reports/final_report.md`](reports/final_report.md) (PDF: [`reports/final_report(1).pdf`](reports/final_report.pdf)); it is being updated to the latest training run after deployment testing. Every number in this README comes from the latest executed notebook [`notebooks/dholuo_topic_classification_final.ipynb`](notebooks/dholuo_topic_classification_final.ipynb).
 
 ## Project links
 
@@ -12,9 +12,9 @@ The full technical report is in [`reports/final_report.md`](reports/final_report
 |---|---|
 | Live application | [https://machine-learning-technique1-summative-6lhzhgn9tuwa7wuhtrdjcf.streamlit.app/](https://machine-learning-technique1-summative-6lhzhgn9tuwa7wuhtrdjcf.streamlit.app/) |
 | GitHub repository | [https://github.com/OgayoTK1/machine-learning-technique1-summative](https://github.com/OgayoTK1/machine-learning-technique1-summative) |
-| Technical report | [`reports/final_report.pdf`](reports/final_report.pdf) |
+| Technical report | [`reports/final_report(1).pdf`](reports/final_report(1).pdf) |
 | Notebook (all experiments) | [`notebooks/dholuo_topic_classification_final.ipynb`](notebooks/dholuo_topic_classification_final.ipynb) |
-| Demonstration video | Link added after recording |
+| Demonstration video | https://www.youtube.com/watch?v=Fs2sN2lSI-w |
 
 ---
 
